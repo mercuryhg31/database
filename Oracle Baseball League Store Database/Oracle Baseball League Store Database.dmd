@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Oracle Baseball League Store Database" id="BEDB6BD7-2C12-4BAC-199B-0FC416C67C25" version="3.5">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-10-15 14:24:19 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BEDB6BD7-2C12-4BAC-199B-0FC416C67C25</designId>
+</OSDM_Design>

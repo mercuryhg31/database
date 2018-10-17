@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="515130A9-234C-DF79-8229-E3B0D870D199" mainViewID="F7C0382B-9E4E-B850-776E-BF41756FD5EF">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-10-15 14:24:19 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

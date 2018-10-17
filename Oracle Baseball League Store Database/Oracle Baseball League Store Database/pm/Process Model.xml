@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="2A8B1618-DF2A-1711-060E-8451F8229783">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-10-15 14:24:20 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

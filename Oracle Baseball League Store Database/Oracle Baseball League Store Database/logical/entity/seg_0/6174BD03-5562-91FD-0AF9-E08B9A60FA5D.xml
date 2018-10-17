@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6174BD03-5562-91FD-0AF9-E08B9A60FA5D" name="Sales Representative">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-10-15 14:47:39 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B1C0F293-BFB4-767E-D668-69E6CC57D979">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-10-15 14:47:48 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="11DAD19E-953C-0996-5B13-8D0F2C25F870">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-10-15 14:47:59 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First name" id="AB223652-C524-0DF4-E172-710349386F5A">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-10-15 14:48:10 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last name" id="0BD8EB53-ABED-1D66-6248-29D61DF58391">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-10-15 14:48:21 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="CB741AAD-1729-028A-F3A8-F016B9332325">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-10-15 14:48:30 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone number" id="F2805845-B00E-B324-3BA7-D3417224013C">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-10-15 14:48:42 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="253C2309-0CA1-A844-1C88-D9941C7B5D00" name="Sales Representative PK">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-10-15 14:47:57 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B1C0F293-BFB4-767E-D668-69E6CC57D979</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
