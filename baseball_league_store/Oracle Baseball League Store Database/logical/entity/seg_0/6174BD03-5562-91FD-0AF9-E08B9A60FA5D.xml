@@ -24,8 +24,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Email" id="11DAD19E-953C-0996-5B13-8D0F2C25F870">
 <createdBy>hgarg</createdBy>
@@ -36,8 +37,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="First name" id="AB223652-C524-0DF4-E172-710349386F5A">
 <createdBy>hgarg</createdBy>
@@ -48,8 +50,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Last name" id="0BD8EB53-ABED-1D66-6248-29D61DF58391">
 <createdBy>hgarg</createdBy>
@@ -60,20 +63,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Address" id="CB741AAD-1729-028A-F3A8-F016B9332325">
-<createdBy>hgarg</createdBy>
-<createdTime>2018-10-15 14:48:30 UTC</createdTime>
-<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
-<engineerTo>
-<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Phone number" id="F2805845-B00E-B324-3BA7-D3417224013C">
 <createdBy>hgarg</createdBy>
@@ -84,7 +76,52 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Commission rate" id="72CB2387-D158-5584-55C7-A71C5D558474">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-14 15:11:08 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Supervision ID" id="90F3380C-50EE-2313-7922-96A70AAEE4EF">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-14 15:11:55 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="0A2B6A89-022F-887E-878D-778E14AAC624">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-14 15:28:14 UTC</createdTime>
+<generatorID>9CBD4252-CBCD-9A6E-9FE3-363DD24322DB</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B1C0F293-BFB4-767E-D668-69E6CC57D979</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -99,6 +136,18 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>B1C0F293-BFB4-767E-D668-69E6CC57D979</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C71AF6B6-5925-5779-5E23-9F11DE7ACD29" name="Email UK">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-14 15:15:02 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<newElementsIDs>11DAD19E-953C-0996-5B13-8D0F2C25F870</newElementsIDs>
+<usedAttributes>
+<attributeRef>11DAD19E-953C-0996-5B13-8D0F2C25F870</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
