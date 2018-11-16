@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="8574AD64-F754-EFE0-70EB-CE4925692D30" name="Arc_1">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-16 16:22:33 UTC</createdTime>
+<ownerDesignName>Section 4 Lesson 1 Practice</ownerDesignName>
+<engineerTo>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+</engineerTo>
+<entity>76F2A116-D496-1AD6-11DF-99F780F074B7</entity>
+<relations>
+<relationID>6151720C-4DE1-A7AD-BC65-7FC583AD6265</relationID>
+<relationID>0C938960-4B0B-AD2B-76F7-AFC7E63CF5EE</relationID>
+</relations>
+</Arc>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Attendance for seasons" directorySegmentName="seg_0" id="DBCF6F94-37D4-C02A-1DA1-89D1BC7BC143">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-16 16:11:28 UTC</createdTime>
+<ownerDesignName>Section 4 Lesson 1 Practice</ownerDesignName>
+<engineerTo>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+</engineerTo>
+<sourcePk>5643C6C6-143C-9649-E6D3-0B72935D2B3F</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Have</nameOnSource>
+<nameOnTarget>Be for</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6C3989ED-9CE0-21DD-264A-0CADD2E06B11</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E9D4CF27-411B-02E9-F1BE-C4A2ED35F657</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

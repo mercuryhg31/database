@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Course department" directorySegmentName="seg_0" id="FD2BA61C-4D0E-3F31-0EBD-203D015779DE">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-16 16:25:58 UTC</createdTime>
+<ownerDesignName>Section 4 Lesson 1 Practice</ownerDesignName>
+<engineerTo>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+</engineerTo>
+<sourcePk>3092365C-E763-63A4-0129-6FDE3A888BD0</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Offer</nameOnSource>
+<nameOnTarget>Offered by</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>19B37944-2332-9B78-3D6B-CC93AC33108B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>76F2A116-D496-1AD6-11DF-99F780F074B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
