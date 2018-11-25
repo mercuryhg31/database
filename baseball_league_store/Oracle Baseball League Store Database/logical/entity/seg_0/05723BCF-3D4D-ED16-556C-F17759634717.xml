@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05723BCF-3D4D-ED16-556C-F17759634717" name="Item">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-25 02:02:06 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="2F464C90-211F-15CA-F6F8-D278A8B8942E">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-25 02:02:13 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="337A7D16-F72D-5C6B-B3F3-1CA9F25ABC44">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-25 02:02:33 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="491C05A3-2B1F-F68A-BDC1-F940DD3879D5">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-25 02:02:51 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Category" id="A71E6FDD-4819-CB4C-3394-674BEB8F3652">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-25 02:03:05 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Color" id="998F15FA-248D-104D-836D-A5CC19F39AC6">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-25 02:03:16 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Size" id="0A662D25-C747-5AAD-FCB7-78DDD4838527">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-25 02:03:28 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="978DAF71-DA58-F3A6-43BB-6045999A340D">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-25 02:04:59 UTC</createdTime>
+<generatorID>AF68C261-881C-A867-C58F-956BE45C7631</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<referedAttribute>178AAF6E-B6CA-B212-C8AC-818458D2FE89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="194809DF-C7FC-DCD6-9E79-F1E784F0F13B" name="Item PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-25 02:02:32 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2F464C90-211F-15CA-F6F8-D278A8B8942E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

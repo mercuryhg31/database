@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Address of sales rep" directorySegmentName="seg_0" id="AC9CC0A7-E4C8-76D0-EED6-A317C4DEEE8B">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-25 01:58:57 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<sourcePk>253C2309-0CA1-A844-1C88-D9941C7B5D00</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Reside at</nameOnSource>
+<nameOnTarget>Assigned to</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6174BD03-5562-91FD-0AF9-E08B9A60FA5D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FED23FFC-E631-C5B4-F3D6-A7499AFFE100</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

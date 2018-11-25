@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Iventory items" directorySegmentName="seg_0" id="AF68C261-881C-A867-C58F-956BE45C7631">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-25 02:04:59 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<sourcePk>EFDB04A0-BEBA-710E-A038-6EE4DD267252</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Include</nameOnSource>
+<nameOnTarget>On</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DB5DB0BF-2427-4089-37D7-348D3A5D9057</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05723BCF-3D4D-ED16-556C-F17759634717</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

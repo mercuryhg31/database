@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Item price history" directorySegmentName="seg_0" id="8FA811B8-981C-CAD3-C6A9-EA7381EF6D9B">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-25 02:12:17 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<engineerTo>
+<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+</engineerTo>
+<sourcePk>194809DF-C7FC-DCD6-9E79-F1E784F0F13B</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Priced using</nameOnSource>
+<nameOnTarget>Represent</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>05723BCF-3D4D-ED16-556C-F17759634717</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B6E671AA-DAA6-BF88-E22A-C75DCFF54508</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
