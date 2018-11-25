@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Student grades" directorySegmentName="seg_0" id="A99B7DEB-44D6-AB83-86DA-1E877453EF0E">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-16 16:00:34 UTC</createdTime>
+<ownerDesignName>Academic Database</ownerDesignName>
+<engineerTo>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+</engineerTo>
+<sourcePk>0DF73209-F969-0A6A-E391-6041BCCCD3C1</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Have</nameOnSource>
+<nameOnTarget>Be for</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>14FCBE88-675F-B044-F704-BF203B2D70B5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>684D4D96-D2B9-83BF-AB47-E0E8C16902A4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

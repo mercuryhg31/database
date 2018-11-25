@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4AF066CC-4EAB-04C5-6B38-46CC11C56570" name="Exam result">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-16 16:14:20 UTC</createdTime>
+<ownerDesignName>Academic Database</ownerDesignName>
+<engineerTo>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Grade" id="AA0BA94E-B801-6DA7-3731-9FA68EF85FF0">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-16 16:14:26 UTC</createdTime>
+<ownerDesignName>Academic Database</ownerDesignName>
+<engineerTo>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="A98A0423-C8E5-EEF8-0CD9-4F59AF38990E">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-16 16:15:30 UTC</createdTime>
+<generatorID>0A46F6D5-D5A5-F5C0-DA94-2A483A9A350B</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<engineerTo>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+</engineerTo>
+<referedAttribute>62DF3C1A-844D-AFD1-979C-F18498278B8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="A05BD523-FCCB-8749-AF96-E0C203A3DAD1">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-16 16:16:13 UTC</createdTime>
+<generatorID>782BD0BA-4CAF-A9B2-C28E-DD709F4C0CBD</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<engineerTo>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+</engineerTo>
+<referedAttribute>E8258F08-C45E-A9E0-F284-F04265E359B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="0ABB2375-3564-181B-AC35-73720DCBBE61">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-16 16:28:43 UTC</createdTime>
+<generatorID>E43251D7-E324-6EE9-0C64-60F460A346F9</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<engineerTo>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+</engineerTo>
+<referedAttribute>EA65D240-3CDE-DD1C-3B49-CF73DAC9ED26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B4AE226-5D3F-EB54-2E9F-DC20FEFD8AFF" name="Exam result PK">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-16 16:15:23 UTC</createdTime>
+<ownerDesignName>Academic Database</ownerDesignName>
+<engineerTo>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A98A0423-C8E5-EEF8-0CD9-4F59AF38990E</attributeRef>
+<attributeRef>A05BD523-FCCB-8749-AF96-E0C203A3DAD1</attributeRef>
+<attributeRef>0ABB2375-3564-181B-AC35-73720DCBBE61</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
