@@ -68,7 +68,7 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Postal code" id="DC1609F0-A1D8-CF88-3DDE-317A2419E7D3">
+<Attribute name="Zip code" id="DC1609F0-A1D8-CF88-3DDE-317A2419E7D3">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-25 01:56:05 UTC</createdTime>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
@@ -94,7 +94,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>6</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -94,20 +94,6 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,6,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Loyalty card number" id="398B280F-781E-FC62-844E-CC8CC33E9B32">
-<createdBy>hgarg</createdBy>
-<createdTime>2018-11-14 14:58:49 UTC</createdTime>
-<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
-<engineerTo>
-<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>6</dataTypeSize>
-<ownDataTypeParameters>6,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ID" id="D37DC027-ED12-1914-4CC7-DF9920A248BD">
 <createdBy>hgarg</createdBy>
 <createdTime>2018-11-14 15:26:42 UTC</createdTime>
@@ -122,7 +108,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -158,10 +144,6 @@
 <engineerTo>
 <item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
 </engineerTo>
-<newElementsIDs>398B280F-781E-FC62-844E-CC8CC33E9B32</newElementsIDs>
-<usedAttributes>
-<attributeRef>398B280F-781E-FC62-844E-CC8CC33E9B32</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

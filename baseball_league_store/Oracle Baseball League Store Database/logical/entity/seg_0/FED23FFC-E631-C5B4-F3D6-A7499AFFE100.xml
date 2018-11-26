@@ -55,7 +55,7 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Postal code" id="653DEACF-2778-5A15-9ACD-583C56DD4A88">
+<Attribute name="Zip code" id="653DEACF-2778-5A15-9ACD-583C56DD4A88">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-25 01:58:33 UTC</createdTime>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
@@ -68,10 +68,10 @@
 <dataTypeSize>7</dataTypeSize>
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID" id="C2B34ED8-FBC6-BAA5-1BB2-F8FC4B6E7DC4">
-<createdBy>harsh</createdBy>
-<createdTime>2018-11-25 01:58:57 UTC</createdTime>
-<generatorID>AC9CC0A7-E4C8-76D0-EED6-A317C4DEEE8B</generatorID>
+<Attribute name="ID" id="26068DB2-EED4-7A0A-E82E-24B93E2F4C25">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-26 14:44:05 UTC</createdTime>
+<generatorID>65730FFA-C4A2-F832-A450-2C72DD01E358</generatorID>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
 <engineerTo>
 <item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
@@ -94,7 +94,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C2B34ED8-FBC6-BAA5-1BB2-F8FC4B6E7DC4</attributeRef>
+<attributeRef>26068DB2-EED4-7A0A-E82E-24B93E2F4C25</attributeRef>
+<attributeRef>7446BADA-1E37-3D95-D58A-B8FF6CCCB7B3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
