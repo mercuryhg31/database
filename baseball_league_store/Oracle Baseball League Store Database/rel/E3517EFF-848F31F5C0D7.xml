@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="E3517EFF-8610-143C-A285-848F31F5C0D7" mainViewID="2CB53C00-64C0-2275-6A72-21849CD2AF9C">
-<createdBy>hgarg</createdBy>
-<createdTime>2018-10-15 14:24:46 UTC</createdTime>
-<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
-</relationalModel>

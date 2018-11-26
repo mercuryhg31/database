@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1187AA00-08AF-6E2A-A5FA-AFBBD63D3107" name="Sales_Representative">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-26 15:16:39 UTC</createdTime>
+<generatorID>6174BD03-5562-91FD-0AF9-E08B9A60FA5D</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="2C2401F0-DC2A-F0F8-81B4-A866E3D7719B">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-26 15:16:39 UTC</createdTime>
+<generatorID>B1C0F293-BFB4-767E-D668-69E6CC57D979</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="E7AA2D19-498B-07D4-1E15-98E5ADB35EAC">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-26 15:16:39 UTC</createdTime>
+<generatorID>11DAD19E-953C-0996-5B13-8D0F2C25F870</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_name" id="654C058C-45BF-8F8B-82F9-41E3CE3DB3D2">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-26 15:16:39 UTC</createdTime>
+<generatorID>AB223652-C524-0DF4-E172-710349386F5A</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_name" id="726E8CE4-B324-BFD5-736B-305EFD84EB65">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-26 15:16:39 UTC</createdTime>
+<generatorID>0BD8EB53-ABED-1D66-6248-29D61DF58391</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_number" id="DBA1A58D-B298-C833-98AA-F2F3AF6944A4">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-26 15:16:39 UTC</createdTime>
+<generatorID>F2805845-B00E-B324-3BA7-D3417224013C</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Commission_rate" id="F0F8535C-7A67-4327-4F9A-3089D5495D6F">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-26 15:16:39 UTC</createdTime>
+<generatorID>72CB2387-D158-5584-55C7-A71C5D558474</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sales_Representative_ID" id="E43CDF29-5DE3-71D6-9A44-021FCF18B170">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-26 15:16:39 UTC</createdTime>
+<generatorID>0A2B6A89-022F-887E-878D-778E14AAC624</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76887F74-DF42-C72E-501F-26E1B31892C1" referredColumn="2C2401F0-DC2A-F0F8-81B4-A866E3D7719B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB2A7934-0A04-C091-BDFD-9F23298B44CB" name="Sales_Representative_PK">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-26 15:16:39 UTC</createdTime>
+<generatorID>253C2309-0CA1-A844-1C88-D9941C7B5D00</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C2401F0-DC2A-F0F8-81B4-A866E3D7719B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95C7BE76-22A0-E2EE-0D58-4E31FD352351" name="Sales_Representative_Email_UN">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-26 15:16:39 UTC</createdTime>
+<generatorID>C71AF6B6-5925-5779-5E23-9F11DE7ACD29</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7AA2D19-498B-07D4-1E15-98E5ADB35EAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="273850B7-D66F-83AA-D24D-89BB55ADC368" name="Sales_Representative_Sales_Representative_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-26 15:16:40 UTC</createdTime>
+<generatorID>9CBD4252-CBCD-9A6E-9FE3-363DD24322DB</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E43CDF29-5DE3-71D6-9A44-021FCF18B170"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

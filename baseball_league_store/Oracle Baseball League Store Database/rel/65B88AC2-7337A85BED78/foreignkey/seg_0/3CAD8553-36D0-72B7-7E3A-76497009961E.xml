@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3CAD8553-36D0-72B7-7E3A-76497009961E" containerWithKeyObject="477FB82C-53FB-281E-25F1-11BC6B675AEA" localFKIndex="CD987213-2CB6-B9DD-89B0-4853B1E2C83E" name="Price_history_Item_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-26 15:04:51 UTC</createdTime>
+<generatorID>8FA811B8-981C-CAD3-C6A9-EA7381EF6D9B</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<referredTableLongName>Item</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C7C9C447-69C8-C1B1-1B07-6EC67534F23F</referredTableID>
+<keyObject>3C5DD285-8019-6C43-1AD1-C1995F15EA8C</keyObject>
+<referredKeyID>3C5DD285-8019-6C43-1AD1-C1995F15EA8C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Number</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
