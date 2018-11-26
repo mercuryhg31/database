@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1443D41B-4E34-50A8-6465-83FA3E8386C5" name="Department">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>19B37944-2332-9B78-3D6B-CC93AC33108B</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0F53A78A-7B87-A484-A4C9-1B09B019A7F8">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>92C1DB64-0355-7D55-58DA-D8206B52BDCB</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="CDE5ABF3-D61B-6055-C2AC-3F14E422003C">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>2AB1E659-37FE-BA0E-32DA-839EBCC937AA</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Head" id="DD13D1C7-D083-0C1B-ED18-A88D3C9909DE">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>6DCB257C-057E-79C6-965A-2966DE6278F0</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2E65485-820A-18A7-A81F-1C4857723777" name="Department_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>3092365C-E763-63A4-0129-6FDE3A888BD0</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F53A78A-7B87-A484-A4C9-1B09B019A7F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56C70213-A9B0-B121-9EAF-9BDF856F8153" name="Course">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>76F2A116-D496-1AD6-11DF-99F780F074B7</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="15043172-663B-2FF5-D44D-F8FB71DC197C">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>E8258F08-C45E-A9E0-F284-F04265E359B5</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="C3C9858C-3F98-88F5-5DF7-9E8D164A807A">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>985878A5-E34A-97CA-6F64-75D8275A1134</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Academic_season_ID" id="F57551DB-0F32-19C4-57FE-89CAE0E03F4C">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>00D5730A-E457-E376-AAA0-215DD38B6844</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="977CEBE6-9F7C-C60F-9DD6-BEEE6C7FD3F8" referredColumn="1F65F997-F41B-EE4D-0CDC-BE8C1DDFC8D2"/>
+</associations>
+</Column>
+<Column name="Online_Logon_ID" id="E570622C-A3BE-CB3B-BCDA-0801C82E042F">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>C1E96CB6-9AE1-58A2-FF0C-5C9677D26849</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3713CBD9-518D-5FA7-BE4C-8A25DA2D4953" referredColumn="24996A99-2B6E-16A0-EC71-C14028A40304"/>
+</associations>
+</Column>
+<Column name="Seated_Building" id="1107274B-26C8-26CA-340D-2D7C1412712F">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>F82ECA9D-E9DE-7CCA-3760-F2A7C307C2C6</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5777E24C-9480-7B73-90D0-FA6229EE6D59" referredColumn="B8279201-C4A6-ADA8-29A9-B2DB6739738E"/>
+</associations>
+</Column>
+<Column name="Seated_Room" id="398049E2-72DB-6763-4633-1138E3B1D629">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>76479792-FDAA-884E-303C-8FF10AF43F8A</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5777E24C-9480-7B73-90D0-FA6229EE6D59" referredColumn="7DF5D1B7-A831-4989-44BE-5BCAF1B77B50"/>
+</associations>
+</Column>
+<Column name="Seated_Date/Time" id="BAA8E3CE-DCC6-AB90-AFD3-86C63A79ABD7">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>0C30657A-577D-3FBD-6AC7-B3FC9FF93F90</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5777E24C-9480-7B73-90D0-FA6229EE6D59" referredColumn="076CD425-12CB-F19D-A275-D669F991E03D"/>
+</associations>
+</Column>
+<Column name="Department_ID" id="076A252E-BF59-307E-736E-DE94C3A2A6BC">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>E6B1BA14-A126-E056-CDF6-3B1A2EC71DD1</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51BFB00B-A732-85BA-B148-5B9278BB5F00" referredColumn="0F53A78A-7B87-A484-A4C9-1B09B019A7F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FECA4C96-F77F-916E-A114-3143D91061BF" name="Course_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>15C7D4B5-7813-660F-126F-A7FE078C0511</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15043172-663B-2FF5-D44D-F8FB71DC197C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4DC92CE-FF4E-6560-C018-E0405D3CCF2E" name="Course_Department_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>FD2BA61C-4D0E-3F31-0EBD-203D015779DE</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="076A252E-BF59-307E-736E-DE94C3A2A6BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0477E44F-1D1A-BBC5-62A8-542C91802005" name="Course_Online_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>6151720C-4DE1-A7AD-BC65-7FC583AD6265</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E570622C-A3BE-CB3B-BCDA-0801C82E042F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="466322AC-5B8C-7EFE-EB54-78B5DB71BB3B" name="Course_Academic_season_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>FDBB0A80-578D-B385-F8F8-876472EAD0B3</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F57551DB-0F32-19C4-57FE-89CAE0E03F4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCB26FDE-0B74-C01F-17A2-29179F45B3F8" name="Course_Seated_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>0C938960-4B0B-AD2B-76F7-AFC7E63CF5EE</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1107274B-26C8-26CA-340D-2D7C1412712F"/>
+<colUsage columnID="398049E2-72DB-6763-4633-1138E3B1D629"/>
+<colUsage columnID="BAA8E3CE-DCC6-AB90-AFD3-86C63A79ABD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

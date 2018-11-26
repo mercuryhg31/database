@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62FE59EF-183B-7DBD-CC95-A4FA855230FC" name="Faculty_login_detail">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>482221B7-AF72-7DFD-C16F-74BEDC18CC72</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Login_date_time" id="A2C7E580-DAD2-EEF5-CA8F-D599775E879E">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>2F04351D-E561-661A-FB97-F94F08F0B8A7</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Faculty_ID" id="1979AD8E-D388-9BBF-752F-F76FA0AD0C6F">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>346E1FF3-132B-8EE8-3822-7FBEBC77A891</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAEEC01F-64FB-E3AE-34B7-7C6C92490878" referredColumn="7E3FA3F6-F74B-C186-92D6-E871A72F4FEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43630A87-C6D9-A364-EB7B-C5E8695E7B9C" name="Faculty_login_detail_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>9F008CC4-CE40-7961-8148-7D993934D0DB</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1979AD8E-D388-9BBF-752F-F76FA0AD0C6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20F110B7-150F-C943-F116-E8FC4FD6EE8F" name="Faculty_login_detail_Faculty_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>7C879B04-385F-F540-E2A5-EE7BD68C9800</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1979AD8E-D388-9BBF-752F-F76FA0AD0C6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

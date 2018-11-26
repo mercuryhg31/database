@@ -60,7 +60,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="FED23FFC-E631-C5B4-F3D6-A7499AFFE100" otype="Entity" vid="F4E66DA5-EC0A-687D-6FA7-1F62CEB9DA92">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="219" y="356" width="178" height="85"/>
+<bounds x="231" y="356" width="178" height="85"/>
 </OView>
 </objectViews>
 <connectors>
@@ -167,19 +167,19 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="382" y="329" width="59" height="30"/>
+<labelBounds x="388" y="329" width="59" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
 <targetLabel class="oracle.dbtools.crest.model.design.Label">
 <site>2</site>
-<labelBounds x="382" y="320" width="69" height="30"/>
+<labelBounds x="388" y="320" width="69" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
 <points>
-<point x="382" y="285"/>
-<point x="415" y="352"/>
+<point x="388" y="285"/>
+<point x="388" y="356"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="AF68C261-881C-A867-C58F-956BE45C7631" otype="Relation" vid_source="3DC8379B-E48B-350E-CD4F-78166B535CD5" vid_target="B2529137-9642-1C80-19E1-949C1488B4FB">
@@ -194,7 +194,7 @@
 </sourceLabel>
 <targetLabel class="oracle.dbtools.crest.model.design.Label">
 <site>2</site>
-<labelBounds x="618" y="457" width="29" height="30"/>
+<labelBounds x="618" y="449" width="29" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
@@ -257,7 +257,7 @@
 </sourceLabel>
 <targetLabel class="oracle.dbtools.crest.model.design.Label">
 <site>2</site>
-<labelBounds x="89" y="484" width="63" height="30"/>
+<labelBounds x="89" y="476" width="63" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>

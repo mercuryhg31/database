@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39E9C57D-128D-FACC-4802-0289F4AB145B" name="Full_time">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>E30F8754-DA38-95D5-A3B7-5157551D9EE0</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="87FF84C4-3396-053A-4D08-B03EF2BDD7C5">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>27973961-56F6-968C-58FF-9BC5A336905D</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67C8ADE8-FB33-9590-14B7-2A8290DA5B8B" referredColumn="7E3FA3F6-F74B-C186-92D6-E871A72F4FEC"/>
+</associations>
+</Column>
+<Column name="Salary" id="6EB764FC-F02A-CA9C-D9E3-4BD3EF7946AF">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>4EC0A464-232A-2877-E530-906C22EFC184</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Insurance" id="19179160-08F3-5481-9F0F-35842E807A90">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>42203420-8F5C-0298-1102-8D82430BA7AD</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F696DF39-EEDE-895A-17B1-7B9F71E5A59E" name="Full_time_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>4FEBAB0C-BEE2-4954-1C90-4FB4C44F55A0</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87FF84C4-3396-053A-4D08-B03EF2BDD7C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0F01ED9-2D11-73D2-0D9A-62C636C47D38" name="Full_time_Faculty_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>9BBBDEB8-F090-6F1E-7B8F-F7484D5C2BBC</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87FF84C4-3396-053A-4D08-B03EF2BDD7C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

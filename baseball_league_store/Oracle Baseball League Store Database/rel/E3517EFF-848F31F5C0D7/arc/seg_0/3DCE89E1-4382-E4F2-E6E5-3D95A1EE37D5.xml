@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="3DCE89E1-4382-E4F2-E6E5-3D95A1EE37D5" name="FKArc_1">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-25 02:37:21 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>3ABD55D6-96C9-610A-FADA-6C10A923D88D</table>
+<fkeys>
+<fkeyID>48C51B7E-48B7-3902-9A9F-89840DD4B8C3</fkeyID>
+<fkeyID>634098A3-A512-2381-B30C-D06663F5AB2B</fkeyID>
+</fkeys>
+</FKArc>

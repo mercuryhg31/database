@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="F651FD66-C6CD-0676-3A79-4EEB70620F72" name="Arc_1">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<ownerDesignName>Academic Database</ownerDesignName>
+<mandatory>true</mandatory>
+<table>56C70213-A9B0-B121-9EAF-9BDF856F8153</table>
+<fkeys>
+<fkeyID>3713CBD9-518D-5FA7-BE4C-8A25DA2D4953</fkeyID>
+<fkeyID>5777E24C-9480-7B73-90D0-FA6229EE6D59</fkeyID>
+</fkeys>
+</FKArc>

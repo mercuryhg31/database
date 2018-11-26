@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="48C51B7E-48B7-3902-9A9F-89840DD4B8C3" containerWithKeyObject="F965DE35-75EA-F879-9B53-A26609D1F652" localFKIndex="9F2E159A-526A-03FE-824E-DFBC830C78FA" name="Team_representative_Customer_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-25 02:37:21 UTC</createdTime>
+<generatorID>144A300F-B9B4-A621-B9C3-3096E727B626</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<referredTableLongName>Customer</referredTableLongName>
+<arc>3DCE89E1-4382-E4F2-E6E5-3D95A1EE37D5</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3ABD55D6-96C9-610A-FADA-6C10A923D88D</referredTableID>
+<keyObject>89B6D5D7-7C76-AFD7-8754-0C4446EA95C3</keyObject>
+<referredKeyID>89B6D5D7-7C76-AFD7-8754-0C4446EA95C3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Number</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

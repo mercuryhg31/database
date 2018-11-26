@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B75B70E4-1400-F34D-952A-CF1B32F246E8" containerWithKeyObject="9A3F440E-69A4-7398-F902-B7AA8F37B162" localFKIndex="0B2AC300-B482-99FE-D6DA-B5A157F6EA84" name="Student_attendance_Academic_season_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>DBCF6F94-37D4-C02A-1DA1-89D1BC7BC143</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<referredTableLongName>Academic_season</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>94A61173-3B1E-BB35-7FFE-C2F92BAE5AEE</referredTableID>
+<keyObject>7918DD02-53FB-F4E6-9FB5-64FC76928189</keyObject>
+<referredKeyID>7918DD02-53FB-F4E6-9FB5-64FC76928189</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

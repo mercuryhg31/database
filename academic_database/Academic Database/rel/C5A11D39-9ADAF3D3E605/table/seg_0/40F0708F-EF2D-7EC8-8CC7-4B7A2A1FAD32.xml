@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40F0708F-EF2D-7EC8-8CC7-4B7A2A1FAD32" name="Exam_result">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>4AF066CC-4EAB-04C5-6B38-46CC11C56570</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Grade" id="C4F9D351-A781-F510-C35C-1980EE1D2B8D">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>AA0BA94E-B801-6DA7-3731-9FA68EF85FF0</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_ID" id="3ECFB734-EA02-3555-ACB1-2D64C4180640">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>A98A0423-C8E5-EEF8-0CD9-4F59AF38990E</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35A2250E-A11B-E1AD-479B-CB457F6BBEA5" referredColumn="46425A73-8D96-8BBC-A6FA-1328C7926CED"/>
+</associations>
+</Column>
+<Column name="Course_ID" id="46B813CD-E591-2ECC-128A-A02BA6E39BD8">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>A05BD523-FCCB-8749-AF96-E0C203A3DAD1</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06562C4A-7AB1-002E-8F71-638C5888C7D3" referredColumn="15043172-663B-2FF5-D44D-F8FB71DC197C"/>
+</associations>
+</Column>
+<Column name="Exam_ID" id="554D47A7-F884-95BD-364E-E92197378351">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>0ABB2375-3564-181B-AC35-73720DCBBE61</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="643C999E-380F-DED5-748A-58EA17B4BF31" referredColumn="F21719EB-054F-81D5-4FA1-B349AB585C3F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41B2ED22-14FA-3F68-A213-2D7DF6F809FC" name="Exam_result_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>3B4AE226-5D3F-EB54-2E9F-DC20FEFD8AFF</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ECFB734-EA02-3555-ACB1-2D64C4180640"/>
+<colUsage columnID="46B813CD-E591-2ECC-128A-A02BA6E39BD8"/>
+<colUsage columnID="554D47A7-F884-95BD-364E-E92197378351"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA96C701-37D4-4302-DB72-7D3DFCF31F08" name="Exam_result_Course_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>782BD0BA-4CAF-A9B2-C28E-DD709F4C0CBD</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46B813CD-E591-2ECC-128A-A02BA6E39BD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA57B581-A121-13AC-C9A2-780D1D2B2FE7" name="Exam_result_Exam_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>E43251D7-E324-6EE9-0C64-60F460A346F9</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="554D47A7-F884-95BD-364E-E92197378351"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BD3B443-EE42-B01C-C782-24A38F3672AC" name="Exam_result_Student_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>0A46F6D5-D5A5-F5C0-DA94-2A483A9A350B</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ECFB734-EA02-3555-ACB1-2D64C4180640"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

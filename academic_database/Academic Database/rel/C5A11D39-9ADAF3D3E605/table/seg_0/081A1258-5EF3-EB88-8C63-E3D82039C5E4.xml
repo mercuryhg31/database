@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="081A1258-5EF3-EB88-8C63-E3D82039C5E4" name="Faculty_course_detail">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>E745C746-9AAF-A78B-F40D-87CA78B3B808</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Contact_hours" id="DF12C2E9-1D91-0E68-0644-8EB95E396DD5">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>5E95FA54-80F7-95ED-C099-88644ADFDB77</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Faculty_ID" id="4FC135B3-2843-8384-D58B-689A2081ADD5">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>4CC68B00-5CA6-D307-0DE9-DBB8F391303F</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1B44545-5301-43E5-DEA8-F7A47931BAAE" referredColumn="7E3FA3F6-F74B-C186-92D6-E871A72F4FEC"/>
+</associations>
+</Column>
+<Column name="Course_ID" id="9657E975-1A1D-3047-E295-B04023FBF421">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>2BFEB7C3-88B7-FB69-8756-D9A27780D7FA</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5834FCAB-7530-55B3-5A2B-C1D247F32004" referredColumn="15043172-663B-2FF5-D44D-F8FB71DC197C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1F49395-A3AB-4637-6FA8-16EB983EF555" name="Faculty_course_detail_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:05 UTC</createdTime>
+<generatorID>22C5433A-EBAE-BF5E-10D6-27A8FD6E79FF</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FC135B3-2843-8384-D58B-689A2081ADD5"/>
+<colUsage columnID="9657E975-1A1D-3047-E295-B04023FBF421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09F22273-9BBB-0049-C571-9BC30AA5DABA" name="Faculty_course_detail_Course_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>28219C48-C0E8-9838-B410-CDF3387A7D3C</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9657E975-1A1D-3047-E295-B04023FBF421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="679975CA-B933-483D-B4E8-1E71E848029C" name="Faculty_course_detail_Faculty_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-11-26 02:08:06 UTC</createdTime>
+<generatorID>8E9A93B2-CC5C-2001-F80F-202D6DD5FEC5</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FC135B3-2843-8384-D58B-689A2081ADD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
