@@ -78,7 +78,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -97,6 +97,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="46425A73-8D96-8BBC-A6FA-1328C7926CED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24A973B3-38B8-7F79-6ACF-9C085675E9B7" name="Student_Email_UN">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-28 14:47:03 UTC</createdTime>
+<generatorID>7205CF4C-6DA3-FDCA-8BD5-6EB4D1F9C48B</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="315D39AC-234F-CEB3-7091-C6C8998E6A16"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="C82EB762-8DF3-F33A-8DEB-934B3DDEAF26" name="Student_Parent_information_FK">

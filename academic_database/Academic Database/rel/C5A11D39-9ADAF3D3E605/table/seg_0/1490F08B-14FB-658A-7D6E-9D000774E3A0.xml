@@ -49,6 +49,7 @@
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>3B946656-1FFA-1DD5-F719-3394DEAE36D1</generatorID>
 <ownerDesignName>Academic Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -61,6 +62,7 @@
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>05F1E94C-1466-92DA-7701-FF6E657B7D28</generatorID>
 <ownerDesignName>Academic Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

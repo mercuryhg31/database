@@ -65,12 +65,53 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="34593C48-3C1D-A80A-F3B2-F18A97FCE4BE" referredColumn="0F53A78A-7B87-A484-A4C9-1B09B019A7F8"/>
 </associations>
+</Column>
+<Column name="Salary" id="9850478F-9A52-F85D-4745-19E3BFB37958">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-28 14:47:03 UTC</createdTime>
+<generatorID>4EC0A464-232A-2877-E530-906C22EFC184</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Insurance" id="4EF03DDD-D850-56B0-FB6A-1A89D5939C53">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-28 14:47:03 UTC</createdTime>
+<generatorID>42203420-8F5C-0298-1102-8D82430BA7AD</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hourly_rate" id="E889D4CB-4B2D-A36F-5AB4-0669441FEA76">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-28 14:47:03 UTC</createdTime>
+<generatorID>7624FA74-F232-33BC-8399-6A768B73EACF</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -84,6 +125,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7E3FA3F6-F74B-C186-92D6-E871A72F4FEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC876700-1179-2A40-68E8-BE0205BD7C22" name="Faculty_Email_UN">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-28 14:47:03 UTC</createdTime>
+<generatorID>4731DB02-639E-DE52-F878-4257FF7B5181</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8A8D092-0FF6-4E5C-5A50-6AA772BD38E9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="75CFA0F2-433F-B7C2-8BE2-366ED69EEDC8" name="Faculty_Department_FK">

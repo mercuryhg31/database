@@ -4,7 +4,7 @@
 <createdTime>2018-11-22 17:57:37 UTC</createdTime>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
 <engineerTo>
-<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+<item key="3975AB47-DAD3-07F7-A738-79D5BB57B2D5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,13 +14,14 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>cas</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="ID" id="B16181DD-388D-35B8-7B9F-A2597135BA7F">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-22 17:57:43 UTC</createdTime>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
 <engineerTo>
-<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+<item key="3975AB47-DAD3-07F7-A738-79D5BB57B2D5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +34,7 @@
 <createdTime>2018-11-22 17:57:59 UTC</createdTime>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
 <engineerTo>
-<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+<item key="3975AB47-DAD3-07F7-A738-79D5BB57B2D5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,7 +47,7 @@
 <createdTime>2018-11-22 17:58:12 UTC</createdTime>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
 <engineerTo>
-<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+<item key="3975AB47-DAD3-07F7-A738-79D5BB57B2D5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +61,7 @@
 <createdTime>2018-11-22 17:58:43 UTC</createdTime>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
 <engineerTo>
-<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+<item key="3975AB47-DAD3-07F7-A738-79D5BB57B2D5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,7 +74,7 @@
 <createdTime>2018-11-25 01:56:05 UTC</createdTime>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
 <engineerTo>
-<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+<item key="3975AB47-DAD3-07F7-A738-79D5BB57B2D5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -87,7 +88,7 @@
 <generatorID>E02357C7-2F3C-477E-ADF5-715645AD13A4</generatorID>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
 <engineerTo>
-<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+<item key="3975AB47-DAD3-07F7-A738-79D5BB57B2D5" value="true"/>
 </engineerTo>
 <referedAttribute>842B83FC-D1A9-D2B7-832E-A3753E4B09F1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -102,8 +103,9 @@
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-22 17:57:57 UTC</createdTime>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E3517EFF-8610-143C-A285-848F31F5C0D7" value="true"/>
+<item key="3975AB47-DAD3-07F7-A738-79D5BB57B2D5" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

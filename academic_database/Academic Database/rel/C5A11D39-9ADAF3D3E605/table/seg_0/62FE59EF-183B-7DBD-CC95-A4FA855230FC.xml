@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Login_date_time" id="A2C7E580-DAD2-EEF5-CA8F-D599775E879E">
+<Column name="Login_date" id="A2C7E580-DAD2-EEF5-CA8F-D599775E879E">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:05 UTC</createdTime>
 <generatorID>2F04351D-E561-661A-FB97-F94F08F0B8A7</generatorID>
@@ -28,12 +28,36 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="DAEEC01F-64FB-E3AE-34B7-7C6C92490878" referredColumn="7E3FA3F6-F74B-C186-92D6-E871A72F4FEC"/>
 </associations>
+</Column>
+<Column name="Login_time" id="F8604CC0-C8AC-5378-08E6-F437C94901CC">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-28 14:47:03 UTC</createdTime>
+<generatorID>F129357E-4E34-3E4F-C361-728B4499D633</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Detail" id="657C010E-0A96-0C59-4345-C2182AD6F190">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-28 14:47:03 UTC</createdTime>
+<generatorID>46342AE6-C9BB-D94C-230B-751E397B8208</generatorID>
+<ownerDesignName>Academic Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -47,6 +71,8 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1979AD8E-D388-9BBF-752F-F76FA0AD0C6F"/>
+<colUsage columnID="A2C7E580-DAD2-EEF5-CA8F-D599775E879E"/>
+<colUsage columnID="F8604CC0-C8AC-5378-08E6-F437C94901CC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="20F110B7-150F-C943-F116-E8FC4FD6EE8F" name="Faculty_login_detail_Faculty_FK">
