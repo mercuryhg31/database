@@ -61,6 +61,7 @@
 <engineerTo>
 <item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -74,6 +75,7 @@
 <engineerTo>
 <item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

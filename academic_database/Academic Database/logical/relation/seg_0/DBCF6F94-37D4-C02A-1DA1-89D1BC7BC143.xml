@@ -10,7 +10,7 @@
 <identifying>true</identifying>
 <nameOnSource>Have</nameOnSource>
 <nameOnTarget>Be for</nameOnTarget>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>6C3989ED-9CE0-21DD-264A-0CADD2E06B11</sourceEntity>

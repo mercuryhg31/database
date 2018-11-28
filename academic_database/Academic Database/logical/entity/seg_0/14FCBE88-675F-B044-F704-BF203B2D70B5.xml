@@ -110,5 +110,17 @@
 <attributeRef>62DF3C1A-844D-AFD1-979C-F18498278B8E</attributeRef>
 </usedAttributes>
 </identifier>
+<identifier id="7205CF4C-6DA3-FDCA-8BD5-6EB4D1F9C48B" name="Email UK">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-28 14:36:22 UTC</createdTime>
+<ownerDesignName>Academic Database</ownerDesignName>
+<engineerTo>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+</engineerTo>
+<newElementsIDs>4604369F-49D0-E6AD-61EA-54AA33CB43CE</newElementsIDs>
+<usedAttributes>
+<attributeRef>4604369F-49D0-E6AD-61EA-54AA33CB43CE</attributeRef>
+</usedAttributes>
+</identifier>
 </identifiers>
 </Entity>

@@ -41,7 +41,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Type" id="BF6D6AAE-A973-08DE-ECB1-3510C225FD20">
+<Attribute name="ID1" id="BF6D6AAE-A973-08DE-ECB1-3510C225FD20">
 <createdBy>hgarg</createdBy>
 <createdTime>2018-11-16 16:30:09 UTC</createdTime>
 <generatorID>C7066F17-DA05-CE2E-C2D5-F5F559D0CD8F</generatorID>
