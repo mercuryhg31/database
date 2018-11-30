@@ -123,7 +123,7 @@
 <colUsage columnID="F8F29508-FCF7-CFAB-2851-FDC560B8652A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="81ACA580-66E5-EC2A-B752-D7427330C9BB" name="Sales_Representative_Sales_Representative_FK">
+<ind_PK_UK id="81ACA580-66E5-EC2A-B752-D7427330C9BB" name="sre_sre_FK">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-30 03:24:42 UTC</createdTime>
 <generatorID>9CBD4252-CBCD-9A6E-9FE3-363DD24322DB</generatorID>

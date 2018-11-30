@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF19604B-6A75-6403-6F6E-9E0DC31CE02B" containerWithKeyObject="3B3CE403-48BF-6F0E-7DF0-B65F273CA74B" localFKIndex="F56C634F-D9F7-46EB-2A9F-A3D026967F44" name="Team_representative_Team_FK">
-<createdBy>harsh</createdBy>
-<createdTime>2018-11-30 03:24:42 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8BEC4DC9-ECEB-6E38-E79F-8D8F2B8284EB" containerWithKeyObject="7AD04347-FF4A-8C84-158A-D105B26961A9" localFKIndex="224CA1EF-BEEE-E49B-17E3-345BB6C76C1C" name="Customer_Team_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-30 15:16:48 UTC</createdTime>
 <generatorID>1E40BB2B-F357-3ABA-FB43-11891A2F59CC</generatorID>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
 <referredTableLongName>Team</referredTableLongName>
@@ -9,7 +9,7 @@
 <referredTableID>470DCFB4-35B3-9F05-D409-C6F954101C55</referredTableID>
 <keyObject>B967F3CC-232B-ECB4-5CF7-C1FB636C1037</keyObject>
 <referredKeyID>B967F3CC-232B-ECB4-5CF7-C1FB636C1037</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

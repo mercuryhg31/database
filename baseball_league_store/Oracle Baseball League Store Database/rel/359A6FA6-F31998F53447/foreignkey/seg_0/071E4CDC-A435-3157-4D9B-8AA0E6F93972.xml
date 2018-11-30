@@ -1,11 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="29BC3FD5-AEF1-020B-19F5-3073554B102D" containerWithKeyObject="C233AA1E-C1FB-F795-B882-DA703E60ECB7" localFKIndex="7CBDA055-AE42-4792-3FDE-28FD5C8EC4BE" name="Individual_Customer_FK">
-<createdBy>harsh</createdBy>
-<createdTime>2018-11-30 03:24:42 UTC</createdTime>
-<generatorID>7DC54F8E-C7A9-D7F4-BD2A-597679296D24</generatorID>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="071E4CDC-A435-3157-4D9B-8AA0E6F93972" containerWithKeyObject="470DCFB4-35B3-9F05-D409-C6F954101C55" localFKIndex="1EF32C2E-397E-4E18-7066-487F873BD883" name="Team_Customer_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-30 15:16:48 UTC</createdTime>
+<generatorID>1E40BB2B-F357-3ABA-FB43-11891A2F59CC</generatorID>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
 <referredTableLongName>Customer</referredTableLongName>
-<arc>9866F0BB-F5BF-69F6-B1AE-C5FEC6B9B3B3</arc>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>7AD04347-FF4A-8C84-158A-D105B26961A9</referredTableID>
 <keyObject>AC7B832A-EF9F-FDEB-9705-E06463ED04EA</keyObject>

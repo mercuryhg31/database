@@ -5,7 +5,7 @@
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="45C9C86C-FA00-F4D9-C7BE-32D73088B209" value="false"/>
+<item key="359A6FA6-A5DE-D7CB-19A5-F31998F53447" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -23,14 +23,14 @@
 <generatorID>1E40BB2B-F357-3ABA-FB43-11891A2F59CC</generatorID>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
 <engineerTo>
-<item key="45C9C86C-FA00-F4D9-C7BE-32D73088B209" value="true"/>
+<item key="359A6FA6-A5DE-D7CB-19A5-F31998F53447" value="true"/>
 </engineerTo>
 <referedAttribute>0A149151-95DE-5AE0-EA03-AE4EF8B5CC8C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

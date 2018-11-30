@@ -99,6 +99,36 @@
 <colAssociation fkAssociation="16E78D37-D261-5149-1B15-B2729CB93AE8" referredColumn="A793A5D7-3AD1-04F7-8B30-AADE35ADAC5B"/>
 </associations>
 </Column>
+<Column name="Loyalty_card_number" id="BE074CDC-6383-5B02-372C-FB22CB5A0C8F">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-30 15:16:48 UTC</createdTime>
+<generatorID>6B23C47C-ED29-3BA0-317F-5CFA6EA04A2D</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Team_ID" id="1E5E752D-AF57-C1F7-CC5B-D61945815484">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-30 15:16:48 UTC</createdTime>
+<generatorID>1A7AA920-124A-518F-7911-110EB27B3674</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BEC4DC9-ECEB-6E38-E79F-8D8F2B8284EB" referredColumn="83CB8A2F-9286-12B4-E67C-8B49E1CA2DE7"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="AC7B832A-EF9F-FDEB-9705-E06463ED04EA" name="Customer_PK">
@@ -124,7 +154,18 @@
 <colUsage columnID="F75F67F8-075A-75B7-3128-51B6BEAE0B4F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="70724F6B-E125-0276-F748-663734A81C3E" name="Customer_Sales_Representative_FK">
+<ind_PK_UK id="1749BD40-F621-DF8A-C422-8DF108A3D4D7" name="Customer__IDX">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-30 15:16:48 UTC</createdTime>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1E40BB2B-F357-3ABA-FB43-11891A2F59CC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1E5E752D-AF57-C1F7-CC5B-D61945815484"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70724F6B-E125-0276-F748-663734A81C3E" name="ctr_sre_FK">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-30 03:24:42 UTC</createdTime>
 <generatorID>1A3E4F28-D660-C3B5-2A44-D4ACD016DF84</generatorID>
@@ -133,6 +174,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FCA0A980-35C6-FF7A-6507-C8B4C56F2778"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="224CA1EF-BEEE-E49B-17E3-345BB6C76C1C" name="Customer_Team_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2018-11-30 15:16:48 UTC</createdTime>
+<generatorID>1E40BB2B-F357-3ABA-FB43-11891A2F59CC</generatorID>
+<ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E5E752D-AF57-C1F7-CC5B-D61945815484"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

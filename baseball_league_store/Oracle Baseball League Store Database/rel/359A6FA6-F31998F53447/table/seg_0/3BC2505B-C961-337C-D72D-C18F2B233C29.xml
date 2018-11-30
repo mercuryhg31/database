@@ -76,7 +76,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E70F6B8B-7E44-43C8-6B57-6BAAD8157DAC" name="Sales_representative_address_PK">
+<ind_PK_UK id="E70F6B8B-7E44-43C8-6B57-6BAAD8157DAC" name="sas_PK">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-30 03:24:42 UTC</createdTime>
 <generatorID>08D2D1F3-B825-A5FE-1FDE-F2162BA1B747</generatorID>
@@ -89,7 +89,7 @@
 <colUsage columnID="7476DE2D-2141-718F-0184-DB01311C336E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="49832E29-E89F-14A6-29B3-938A740BA901" name="Sales_representative_address__IDX">
+<ind_PK_UK id="49832E29-E89F-14A6-29B3-938A740BA901" name="sas__IDX">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-30 03:24:42 UTC</createdTime>
 <ownerDesignName>Oracle Baseball League Store Database</ownerDesignName>
@@ -100,7 +100,7 @@
 <colUsage columnID="CCBE6015-0975-CC1E-C8C8-4AA09DE0EA26"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="937B6C73-2BA3-5B7F-5354-528E078B101F" name="Sales_representative_address_Sales_Representative_FK">
+<ind_PK_UK id="937B6C73-2BA3-5B7F-5354-528E078B101F" name="sas_sre_FK">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-30 03:24:42 UTC</createdTime>
 <generatorID>65730FFA-C4A2-F832-A450-2C72DD01E358</generatorID>
