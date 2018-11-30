@@ -14,6 +14,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>flt</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="ID" id="27973961-56F6-968C-58FF-9BC5A336905D">
 <createdBy>hgarg</createdBy>
@@ -88,8 +89,9 @@
 <createdBy>hgarg</createdBy>
 <createdTime>2018-11-16 16:32:29 UTC</createdTime>
 <ownerDesignName>Academic Database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -100,8 +102,9 @@
 <createdBy>hgarg</createdBy>
 <createdTime>2018-11-28 14:40:40 UTC</createdTime>
 <ownerDesignName>Academic Database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="false"/>
 </engineerTo>
 <newElementsIDs>DDC85B8A-E90A-7868-5F43-1463D7028D49</newElementsIDs>
 <usedAttributes>

@@ -14,6 +14,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>ldl</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="Login date" id="2F04351D-E561-661A-FB97-F94F08F0B8A7">
 <createdBy>hgarg</createdBy>
@@ -40,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Login time" id="F129357E-4E34-3E4F-C361-728B4499D633">
 <createdBy>hgarg</createdBy>
@@ -74,8 +75,9 @@
 <createdBy>hgarg</createdBy>
 <createdTime>2018-11-20 16:25:38 UTC</createdTime>
 <ownerDesignName>Academic Database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

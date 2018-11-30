@@ -14,6 +14,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>xam</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="ID" id="EA65D240-3CDE-DD1C-3B49-CF73DAC9ED26">
 <createdBy>hgarg</createdBy>
@@ -63,8 +64,9 @@
 <createdBy>hgarg</createdBy>
 <createdTime>2018-11-16 16:28:17 UTC</createdTime>
 <ownerDesignName>Academic Database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

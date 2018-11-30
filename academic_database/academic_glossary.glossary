@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<cwd_glossary name="Academic Database" description="generated from logical model of design Academic Database" id="0F23347B-7B6E-5F3D-E072-3A79FD0604B4" incomplete_modifiers="true" case_sensitive="true" separator_type="Character" mw_separator="_" >
+
+   <glossaryWord name="Parent information" plural="PARENTS INFORMATION" abbreviation="PNT" alt_abbreviation="" id="23A0CB50-630E-0EC7-A055-29229BD21AB5" import_id="" description="" />
+   <glossaryWord name="Student" plural="STUDENTS" abbreviation="SDN" alt_abbreviation="" id="09D21D22-6B40-A7CA-5ECE-FF157586733C" import_id="" description="" />
+   <glossaryWord name="Student attendance" plural="STUDENTS ATTENDANCE" abbreviation="ATD" alt_abbreviation="" id="C493F390-CDE9-FAD2-6690-74649DCC22B6" import_id="" description="" />
+   <glossaryWord name="Enrollment" plural="ENROLLMENT" abbreviation="ERL" alt_abbreviation="" id="F4A2EFD4-0D75-D2C6-77AB-6F9A732E34DD" import_id="" description="" />
+   <glossaryWord name="Department" plural="DEPARTMENTS" abbreviation="DPT" alt_abbreviation="" id="56854ABC-C2C8-2D19-1E77-44672A19B48C" import_id="" description="" />
+   <glossaryWord name="Online" plural="ONLINE" abbreviation="ONL" alt_abbreviation="" id="44676B95-91A0-13EB-40C0-CCAD04369402" import_id="" description="" />
+   <glossaryWord name="Seated" plural="SEATED" abbreviation="SED" alt_abbreviation="" id="5663D915-7706-3EDE-3EAB-D2EF1BAF6B2E" import_id="" description="" />
+   <glossaryWord name="Exam result" plural="EXAM RESULTS" abbreviation="XRL" alt_abbreviation="" id="C2CFCEE6-270D-5E2D-B10A-2924CD90BDBB" import_id="" description="" />
+   <glossaryWord name="Faculty" plural="FACULTY" abbreviation="FLT" alt_abbreviation="" id="53998C88-E210-8139-07B4-086EC970AE6D" import_id="" description="" />
+   <glossaryWord name="Faculty course_detail" plural="FACULTY COURSE DETAILS" abbreviation="CDL" alt_abbreviation="" id="EEB5E151-275C-244C-434F-0B9A4AF2E56D" import_id="" description="" />
+   <glossaryWord name="Faculty login detail" plural="FACULTY LOGIN DETAILS" abbreviation="LDL" alt_abbreviation="" id="2C7F8E51-FE5F-4C72-E1A5-463E3FE30676" import_id="" description="" />
+   <glossaryWord name="Exam" plural="EXAMS" abbreviation="XAM" alt_abbreviation="" id="504806D1-62AD-91FE-3584-7E4A746A1596" import_id="" description="" />
+   <glossaryWord name="Exam type" plural="EXAM TYPES" abbreviation="XTP" alt_abbreviation="" id="F01AA257-D2FC-EF29-A4A9-949471E3A879" import_id="" description="" />
+   <glossaryWord name="Course" plural="COURSES" abbreviation="CRS" alt_abbreviation="" id="64A7630C-FB3E-16A0-30F8-96233F50778D" import_id="" description="" />
+   <glossaryWord name="Academic season" plural="ACADEMIC SEASONS" abbreviation="SSN" alt_abbreviation="" id="40472E39-D2F5-24E6-D2D6-4148585D0933" import_id="" description="" />
+   <glossaryWord name="Parent" plural="" abbreviation="prt" alt_abbreviation="" id="1FC471F6-F6C2-4893-D269-DAFB61B4B3A4" import_id="" description="" />
+
+</cwd_glossary>

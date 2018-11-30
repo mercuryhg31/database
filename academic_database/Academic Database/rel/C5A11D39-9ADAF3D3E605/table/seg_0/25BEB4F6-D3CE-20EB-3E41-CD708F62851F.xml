@@ -4,6 +4,7 @@
 <createdTime>2018-11-26 02:08:05 UTC</createdTime>
 <generatorID>EFEC417A-BEAF-E051-12CC-5CFF9B3052BF</generatorID>
 <ownerDesignName>Academic Database</ownerDesignName>
+<abbreviation>xam</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -32,7 +33,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Exam_type_Type" id="59B4E64D-7852-047E-7C63-B755FFB9379A">
+<Column name="Exam_type_ID" id="59B4E64D-7852-047E-7C63-B755FFB9379A">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:05 UTC</createdTime>
 <generatorID>BF6D6AAE-A973-08DE-ECB1-3510C225FD20</generatorID>
@@ -42,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

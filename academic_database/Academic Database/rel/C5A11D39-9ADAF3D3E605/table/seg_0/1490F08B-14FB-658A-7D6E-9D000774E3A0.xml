@@ -4,6 +4,7 @@
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>4061229E-8851-27A5-2CC6-756BDD3C9ED3</generatorID>
 <ownerDesignName>Academic Database</ownerDesignName>
+<abbreviation>pnt</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

@@ -4,6 +4,7 @@
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>F790E709-3A8B-2AF4-2F21-72F296DCB22D</generatorID>
 <ownerDesignName>Academic Database</ownerDesignName>
+<abbreviation>sed</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

@@ -4,6 +4,7 @@
 <createdTime>2018-11-26 02:08:05 UTC</createdTime>
 <generatorID>DED40CE0-18FF-A09A-0885-DE0CB49F5EFC</generatorID>
 <ownerDesignName>Academic Database</ownerDesignName>
+<abbreviation>xtp</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

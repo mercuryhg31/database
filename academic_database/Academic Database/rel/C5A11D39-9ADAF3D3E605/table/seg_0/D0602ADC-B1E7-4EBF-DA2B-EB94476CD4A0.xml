@@ -4,6 +4,7 @@
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>684D4D96-D2B9-83BF-AB47-E0E8C16902A4</generatorID>
 <ownerDesignName>Academic Database</ownerDesignName>
+<abbreviation>erl</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -55,7 +56,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F8176C9D-7ACE-6F4A-AE3F-45C1296E2CE1" name="Student_course_detail_PK">
+<ind_PK_UK id="F8176C9D-7ACE-6F4A-AE3F-45C1296E2CE1" name="Enrollment_PK">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>AA8A2723-401E-68BE-D14B-74A5507DF564</generatorID>
@@ -67,7 +68,7 @@
 <colUsage columnID="52FF9002-9055-DE40-30D3-FE77FD0BD7B0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="56B3135E-BF0B-6B4C-74C7-FAE47AB3FF18" name="Student_course_detail_Course_FK">
+<ind_PK_UK id="56B3135E-BF0B-6B4C-74C7-FAE47AB3FF18" name="Enrollment_Course_FK">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>67D8ADC2-A565-CD7A-F941-A8A7DB9031E1</generatorID>
@@ -78,7 +79,7 @@
 <colUsage columnID="9638F286-171B-546F-A438-036D2BBDA5DC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5B828718-4915-65F6-E82E-2585F190458C" name="Student_course_detail_Student_FK">
+<ind_PK_UK id="5B828718-4915-65F6-E82E-2585F190458C" name="Enrollment_Student_FK">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>A99B7DEB-44D6-AB83-86DA-1E877453EF0E</generatorID>

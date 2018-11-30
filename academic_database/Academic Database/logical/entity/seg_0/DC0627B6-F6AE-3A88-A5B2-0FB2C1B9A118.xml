@@ -14,6 +14,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>onl</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="Logon ID" id="D9A36E66-3EA3-ADF3-10AD-783A1B5B653F">
 <createdBy>hgarg</createdBy>
@@ -47,8 +48,9 @@
 <createdBy>hgarg</createdBy>
 <createdTime>2018-11-16 16:18:28 UTC</createdTime>
 <ownerDesignName>Academic Database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

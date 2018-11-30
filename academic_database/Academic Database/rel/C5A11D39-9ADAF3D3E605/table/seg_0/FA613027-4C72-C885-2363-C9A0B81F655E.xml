@@ -4,11 +4,12 @@
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>418F2E00-870E-1D24-41DF-7A529F734EFB</generatorID>
 <ownerDesignName>Academic Database</ownerDesignName>
+<abbreviation>flt</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="7E3FA3F6-F74B-C186-92D6-E871A72F4FEC">
+<Column name="flt_ID" id="7E3FA3F6-F74B-C186-92D6-E871A72F4FEC">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>27973961-56F6-968C-58FF-9BC5A336905D</generatorID>
@@ -20,7 +21,7 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="First_name" id="EB5740B5-869D-F0B6-5B8A-2DCE90947D85">
+<Column name="flt_First_name" id="EB5740B5-869D-F0B6-5B8A-2DCE90947D85">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>59A7CA18-7044-2D40-E8C5-E1CDC888C34A</generatorID>
@@ -32,7 +33,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Last_name" id="C8A37F50-E9A5-B6A5-C0C5-99B0BB636F8F">
+<Column name="flt_Last_name" id="C8A37F50-E9A5-B6A5-C0C5-99B0BB636F8F">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>D562435B-78AF-A6B2-2864-2F6ED85D84C8</generatorID>
@@ -44,7 +45,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Email" id="B8A8D092-0FF6-4E5C-5A50-6AA772BD38E9">
+<Column name="flt_Email" id="B8A8D092-0FF6-4E5C-5A50-6AA772BD38E9">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>DDC85B8A-E90A-7868-5F43-1463D7028D49</generatorID>

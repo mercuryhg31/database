@@ -14,6 +14,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>sdn</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="ID" id="62DF3C1A-844D-AFD1-979C-F18498278B8E">
 <createdBy>hgarg</createdBy>
@@ -94,7 +95,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -102,8 +103,9 @@
 <createdBy>hgarg</createdBy>
 <createdTime>2018-11-16 15:58:09 UTC</createdTime>
 <ownerDesignName>Academic Database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -114,8 +116,9 @@
 <createdBy>hgarg</createdBy>
 <createdTime>2018-11-28 14:36:22 UTC</createdTime>
 <ownerDesignName>Academic Database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="true"/>
+<item key="C5A11D39-44F0-7DD5-0369-9ADAF3D3E605" value="false"/>
 </engineerTo>
 <newElementsIDs>4604369F-49D0-E6AD-61EA-54AA33CB43CE</newElementsIDs>
 <usedAttributes>
