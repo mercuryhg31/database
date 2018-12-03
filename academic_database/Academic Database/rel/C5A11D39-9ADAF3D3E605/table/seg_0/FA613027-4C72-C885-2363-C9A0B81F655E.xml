@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA613027-4C72-C885-2363-C9A0B81F655E" name="Faculty">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA613027-4C72-C885-2363-C9A0B81F655E" name="FACULTY">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>418F2E00-870E-1D24-41DF-7A529F734EFB</generatorID>
@@ -128,7 +128,7 @@
 <colUsage columnID="7E3FA3F6-F74B-C186-92D6-E871A72F4FEC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CC876700-1179-2A40-68E8-BE0205BD7C22" name="Faculty_Email_UN">
+<ind_PK_UK id="CC876700-1179-2A40-68E8-BE0205BD7C22" name="Faculty_flt_Email_UN">
 <createdBy>hgarg</createdBy>
 <createdTime>2018-11-28 14:47:03 UTC</createdTime>
 <generatorID>4731DB02-639E-DE52-F878-4257FF7B5181</generatorID>

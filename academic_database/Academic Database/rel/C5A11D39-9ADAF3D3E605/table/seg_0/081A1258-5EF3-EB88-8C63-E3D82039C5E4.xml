@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="081A1258-5EF3-EB88-8C63-E3D82039C5E4" name="Faculty_course_detail">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="081A1258-5EF3-EB88-8C63-E3D82039C5E4" name="FLT_course_detail">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:05 UTC</createdTime>
 <generatorID>E745C746-9AAF-A78B-F40D-87CA78B3B808</generatorID>
@@ -21,7 +21,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Faculty_ID" id="4FC135B3-2843-8384-D58B-689A2081ADD5">
+<Column name="Faculty_flt_ID" id="4FC135B3-2843-8384-D58B-689A2081ADD5">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:05 UTC</createdTime>
 <generatorID>4CC68B00-5CA6-D307-0DE9-DBB8F391303F</generatorID>

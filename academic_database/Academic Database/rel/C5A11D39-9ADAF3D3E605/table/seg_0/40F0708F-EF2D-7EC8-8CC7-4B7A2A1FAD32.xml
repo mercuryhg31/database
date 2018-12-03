@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40F0708F-EF2D-7EC8-8CC7-4B7A2A1FAD32" name="Exam_result">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40F0708F-EF2D-7EC8-8CC7-4B7A2A1FAD32" name="XAM_result">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:05 UTC</createdTime>
 <generatorID>4AF066CC-4EAB-04C5-6B38-46CC11C56570</generatorID>

@@ -290,6 +290,7 @@
 			<discriminator_col value="{table abbr}_TYPE"/>
 		</constraints>
 		<glossaries>
+			<glossary_file value="C:\Users\harsh\Downloads\github_repositories\database\academic_database\academic_glossary.glossary"/>
 		</glossaries>
 	</naming_standard_rules>
 	<comparemapping>

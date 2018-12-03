@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E09086FE-6C62-598D-51FF-CE90D6CEDCD5" name="Online">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E09086FE-6C62-598D-51FF-CE90D6CEDCD5" name="ONLINE">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>DC0627B6-F6AE-3A88-A5B2-0FB2C1B9A118</generatorID>

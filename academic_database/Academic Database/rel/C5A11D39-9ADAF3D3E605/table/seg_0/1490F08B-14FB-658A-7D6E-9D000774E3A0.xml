@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1490F08B-14FB-658A-7D6E-9D000774E3A0" name="Parent_information">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1490F08B-14FB-658A-7D6E-9D000774E3A0" name="prt_information">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>4061229E-8851-27A5-2CC6-756BDD3C9ED3</generatorID>
@@ -21,7 +21,7 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Parent_1_first_name" id="31CF857E-5042-9911-39A1-AD10298B2BCD">
+<Column name="prt_1_first_name" id="31CF857E-5042-9911-39A1-AD10298B2BCD">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>896AFCA2-4F44-AB32-E33F-C6020F9DC37F</generatorID>
@@ -33,7 +33,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Parent_1_last_name" id="55891B37-474D-88A6-E814-BC28396431A7">
+<Column name="prt_1_last_name" id="55891B37-474D-88A6-E814-BC28396431A7">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>9AE816F1-EDFF-EEB5-B9E5-5C404E2A04F8</generatorID>
@@ -45,7 +45,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Parent_2_first_name" id="B4CC0316-A1EF-8DC5-A954-322E647FADA0">
+<Column name="prt_2_first_name" id="B4CC0316-A1EF-8DC5-A954-322E647FADA0">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>3B946656-1FFA-1DD5-F719-3394DEAE36D1</generatorID>
@@ -58,7 +58,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Parent_2_last_name" id="F25CDFC4-1C62-B772-52DE-1335B56B1AA1">
+<Column name="prt_2_last_name" id="F25CDFC4-1C62-B772-52DE-1335B56B1AA1">
 <createdBy>harsh</createdBy>
 <createdTime>2018-11-26 02:08:06 UTC</createdTime>
 <generatorID>05F1E94C-1466-92DA-7701-FF6E657B7D28</generatorID>
