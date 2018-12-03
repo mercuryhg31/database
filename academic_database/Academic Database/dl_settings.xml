@@ -274,15 +274,15 @@
 			</domain>
 		</domains>
 		<constraints>
-			<pk value="{table}_PK"/>
-			<fk value="{child}_{parent}_FK"/>
+			<pk value="{table abbr}_PK"/>
+			<fk value="{child abbr}_{parent abbr}_FK"/>
 			<ck value="{table}_CK"/>
-			<un value="{table}_{column}_UN"/>
-			<idx value="{table}_{column}_IDX"/>
-			<automatic_idx value="{table}_{column}_IDX"/>
-			<colck value="CK_{table}_{column}"/>
-			<colnnc value="NNC_{table abbr}_{column}"/>
-			<column_foreign_key value="{ref table}_{ref column}"/>
+			<un value="{table abbr}_{column}_UK"/>
+			<idx value="{table}_{column}"/>
+			<automatic_idx value="{table}_{column}"/>
+			<colck value="{table}_{column}"/>
+			<colnnc value="{table abbr}_{column}_NN"/>
+			<column_foreign_key value="{ref table abbr}_{ref column}"/>
 			<ui value="{entity} PK"/>
 			<relation_attribute value="{ref entity}_{ref attribute}"/>
 			<surrogate_key value="{table abbr}_PK"/>
