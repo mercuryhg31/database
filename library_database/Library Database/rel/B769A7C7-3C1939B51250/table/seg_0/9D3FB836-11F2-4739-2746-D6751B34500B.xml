@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D3FB836-11F2-4739-2746-D6751B34500B" name="Author">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>DAA4639F-00AD-3977-8EA6-8F616556A99C</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<abbreviation>atr</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="B69CFCD4-EFF0-C89F-40FA-26E0E83C8893">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>E3CDFBF0-BBAA-DBB9-2324-B484C86CC7CD</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_name" id="9DA8A0B9-86A6-0AAE-931F-688B5760B729">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>23B58F97-AEC6-C534-3645-48CCAA16C8DE</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Middle_name" id="E84AF6BF-E84E-49AE-BB66-90ED2D8718AB">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>6BC59376-2A9A-1517-F5E7-3FC6CF49DA4C</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_name" id="11072A7A-F533-0CE5-1BB8-5EEF8241CF8F">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>950E0B01-155B-6124-A0B0-60A12A88EBFC</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Website" id="2EBCD82F-DA1C-D2F7-1871-2C309FD9E4E9">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>6B88F362-AE35-B3AE-DC75-8FD09E3B51D9</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="1F76D113-49EB-CBF4-72B5-A0D83597245E">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>94414F8C-CEF1-7BB7-DFC6-0187B02A6DB6</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A042A14-A7C7-1F9D-B85F-D1F07393E560" name="Author_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>9D445981-D579-041A-AE84-2778BFBBF5AF</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B69CFCD4-EFF0-C89F-40FA-26E0E83C8893"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

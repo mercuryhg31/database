@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65AE04D9-8640-2E82-DE4D-AA1CE2F207F1" name="Book">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>71B71B96-90F8-3146-2019-D36852713516</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<abbreviation>bok</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ISBN_number" id="4F2DF151-A1D7-F6CC-C0B0-41B5514797EB">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>AFE11B17-9937-37FB-46E6-C49B3FC5F9AB</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="16C309A5-2528-51E2-5D10-F119A1E55085">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>D4B7D1D2-BB53-0B58-41CF-66D9086D9898</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dewey_decimal_number" id="83BA9B5B-EEB6-FA97-69EB-8F2C02241D92">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>8E66E0C1-67AA-CF3B-51F8-39DA9A6C2D10</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Genre" id="EFE0644D-C0CE-7A96-4259-90A0F551E7EB">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>1C63E586-B51C-0A00-F4AE-45E335011DF0</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Copy_number" id="567DF394-514D-6BB4-A7A0-778A13C74F95">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>5D96B5D0-0DFD-543B-7F53-6161A3CBCF34</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Publisher_Id" id="95772552-A706-1A14-2383-7EDC13CFE4E0">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>F7E881B8-3EBA-FBBE-120F-BC38AB6DDE73</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="561EBE92-6B52-5DD2-6848-EC56A75646ED" referredColumn="C9367EEA-5810-963D-2136-1A0540A0E501"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D7C9136-CBA6-B6B3-C673-D6C88475ACE9" name="Book_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>E34E8FF4-9323-8316-B4FB-2D7352152E84</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F2DF151-A1D7-F6CC-C0B0-41B5514797EB"/>
+<colUsage columnID="567DF394-514D-6BB4-A7A0-778A13C74F95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30B792FD-CD50-20D8-CC4A-A31A41F2573F" name="Book_Publisher_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>6A93DA0D-51B0-C88F-F71D-4F8310C2183D</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95772552-A706-1A14-2383-7EDC13CFE4E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

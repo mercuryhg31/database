@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C2210D4-2725-DFDA-DAE9-A1F905F535D6" name="Employee">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>FDF96EF3-1282-034B-DB86-1AAFBBF6FAC0</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<abbreviation>epl</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="45E1ED4C-32C0-F0E0-6E22-91489ACC4018">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>9DED023E-E883-656B-3FC5-3E6DEFA78E7B</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_name" id="6F2A7F2E-9336-E01B-88B3-E9DF3BA9B76B">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>EC48515C-78FF-F11F-944B-16D447D81E00</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Middle_name" id="D20F32F2-2424-B83D-E9EF-567B9A1A5635">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>90EF9F6C-90F2-37A6-E08F-EB53AB827B36</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_name" id="F356DF49-2E36-85B3-BADA-F7B0A3D3A7AB">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>51D3859B-FF4B-06D6-B555-7C02D8F954A2</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="029B1E08-8A69-32EF-382A-094FFF9A164F">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>2CE43A21-B895-20B6-E676-2DC524659379</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="5A58AC1E-DE50-BCC8-983B-2D3996DA0896">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>C9326A97-09E7-464E-543D-5C6AED34A422</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_number" id="641C3728-790C-ADAB-4D8E-5974FBDD93F2">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>C8ADF194-00E7-E0BD-B6D8-56176A65382C</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Job_description" id="913E8671-266B-9011-7C84-F901EB8988D2">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>7D22317C-CA35-9360-5F9A-FC61730E5D18</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4F8A47A-72E4-FC93-7DE3-A3451CC675ED" name="Employee_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>CC9D6C60-9C92-E5A3-A434-10B0613FAB12</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45E1ED4C-32C0-F0E0-6E22-91489ACC4018"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

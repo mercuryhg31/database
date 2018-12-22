@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E54F566-A7AD-E2B3-2E2F-968A67558B57" name="Book_checked_out">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>E945B161-A8D8-9966-DB3E-8BF0B263B2D1</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<abbreviation>cks</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Date_checked_out" id="6AFF25E2-1FDC-8C83-BD31-844C1D85CC77">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>D37C83A6-D644-FDC0-EA0A-8B9504148944</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_due_back" id="601D5761-B974-D6A1-3F6F-18FA36405F8A">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>CED2053B-35EE-9208-19C1-1C02ED7675B2</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Late_fine_due" id="2AFCFB45-96FC-76D0-3F88-D14BB7B4D31F">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>848DC924-2832-307E-8E7F-B2C4E8DC8C19</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patron_Card_number" id="B40665A8-8D10-2068-CD96-9C40DA59B1DE">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>0840862B-1739-4C9E-3655-95491788D595</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED6ABCAF-708B-4F1E-1174-DE6B61BB9F75" referredColumn="B0B82C9F-10DF-6A11-FB4E-248F1B188F86"/>
+</associations>
+</Column>
+<Column name="Book_ISBN_Number" id="0D1CB3F0-97F6-0D40-C0ED-1BC8B789E938">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>F8D66DA8-6314-A1C8-FACE-A15C298C89CA</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="829FDFAE-8C9F-26D6-12D3-BD556DA1B56B" referredColumn="4F2DF151-A1D7-F6CC-C0B0-41B5514797EB"/>
+</associations>
+</Column>
+<Column name="Book_Copy_number" id="EFC51B3A-6FBA-D24B-8D75-FA2F27B2AE21">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>EAC39EE8-9500-4277-FA98-8EC1355260F0</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="829FDFAE-8C9F-26D6-12D3-BD556DA1B56B" referredColumn="567DF394-514D-6BB4-A7A0-778A13C74F95"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1958CEB-FFAC-367F-6A19-B167799CA6A5" name="Book_checked_out_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>1D2A94B3-03E9-60AB-7486-D88C8C36BD03</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B40665A8-8D10-2068-CD96-9C40DA59B1DE"/>
+<colUsage columnID="0D1CB3F0-97F6-0D40-C0ED-1BC8B789E938"/>
+<colUsage columnID="EFC51B3A-6FBA-D24B-8D75-FA2F27B2AE21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5914B4B-EF41-E2BD-31A6-3C18A982B7BD" name="Book_checked_out_Book_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>B320910E-8251-3EEA-0B6F-BE6A9FD138CB</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D1CB3F0-97F6-0D40-C0ED-1BC8B789E938"/>
+<colUsage columnID="EFC51B3A-6FBA-D24B-8D75-FA2F27B2AE21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82976C7D-3F69-8BA1-4D96-962394935A70" name="Book_checked_out_Patron_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>F8AA9727-EE44-4803-F0DA-15FDC1BA1BDC</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B40665A8-8D10-2068-CD96-9C40DA59B1DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

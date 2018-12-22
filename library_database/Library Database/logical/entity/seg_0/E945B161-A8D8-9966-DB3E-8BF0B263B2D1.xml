@@ -68,9 +68,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ISBN Number" id="F8D66DA8-6314-A1C8-FACE-A15C298C89CA">
+<Attribute name="ISBN number" id="F8D66DA8-6314-A1C8-FACE-A15C298C89CA">
 <createdBy>harsh</createdBy>
 <createdTime>2018-12-22 03:10:45 UTC</createdTime>
 <generatorID>B320910E-8251-3EEA-0B6F-BE6A9FD138CB</generatorID>
@@ -83,7 +83,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Copy number" id="EAC39EE8-9500-4277-FA98-8EC1355260F0">
 <createdBy>harsh</createdBy>
@@ -98,7 +98,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -106,8 +106,9 @@
 <createdBy>harsh</createdBy>
 <createdTime>2018-12-22 03:10:16 UTC</createdTime>
 <ownerDesignName>Library Database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -16,7 +16,7 @@
 <normalForm>Third</normalForm>
 <shortName>btr</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ISBN Number" id="4B211CA9-A1BA-7FEC-FF2D-D965662611DB">
+<Attribute name="ISBN number" id="4B211CA9-A1BA-7FEC-FF2D-D965662611DB">
 <createdBy>harsh</createdBy>
 <createdTime>2018-12-22 02:43:08 UTC</createdTime>
 <generatorID>F96B9E0F-5BAB-8AE5-1329-075A539C8368</generatorID>
@@ -29,7 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Copy number" id="7EBD072F-1E61-9252-E271-E45CA7CB9445">
 <createdBy>harsh</createdBy>
@@ -44,7 +44,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Id" id="073D7574-2720-41D0-5AF2-20384380DCDE">
 <createdBy>harsh</createdBy>
@@ -59,7 +59,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>25</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -67,8 +67,9 @@
 <createdBy>harsh</createdBy>
 <createdTime>2018-12-22 02:43:08 UTC</createdTime>
 <ownerDesignName>Library Database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -16,7 +16,7 @@
 <normalForm>Third</normalForm>
 <shortName>bok</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ISBN Number" id="AFE11B17-9937-37FB-46E6-C49B3FC5F9AB">
+<Attribute name="ISBN number" id="AFE11B17-9937-37FB-46E6-C49B3FC5F9AB">
 <createdBy>harsh</createdBy>
 <createdTime>2018-12-22 02:36:39 UTC</createdTime>
 <ownerDesignName>Library Database</ownerDesignName>
@@ -42,7 +42,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Dewey Decimal Number" id="8E66E0C1-67AA-CF3B-51F8-39DA9A6C2D10">
+<Attribute name="Dewey decimal number" id="8E66E0C1-67AA-CF3B-51F8-39DA9A6C2D10">
 <createdBy>harsh</createdBy>
 <createdTime>2018-12-22 02:39:12 UTC</createdTime>
 <ownerDesignName>Library Database</ownerDesignName>
@@ -94,7 +94,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>25</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -102,8 +102,9 @@
 <createdBy>harsh</createdBy>
 <createdTime>2018-12-22 02:38:56 UTC</createdTime>
 <ownerDesignName>Library Database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

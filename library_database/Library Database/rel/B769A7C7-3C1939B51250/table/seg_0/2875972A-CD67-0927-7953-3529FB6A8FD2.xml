@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2875972A-CD67-0927-7953-3529FB6A8FD2" name="Hold">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>741F9A92-AAD7-FC82-96FF-31D46B5B9EF2</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<abbreviation>hld</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Book_ISBN_Number" id="AD421D5F-C445-2CF2-A72F-4872B64E4F72">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>15EDAC2D-4F95-F800-9D77-55F668992B0D</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9FABA90-C253-7DC7-DD9D-9BEA499D3E40" referredColumn="4F2DF151-A1D7-F6CC-C0B0-41B5514797EB"/>
+</associations>
+</Column>
+<Column name="Book_Copy_number" id="7C0E5884-05A5-6A5B-CAD3-2CF8367A6645">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>4803DADD-FB90-011A-8905-F7B8D76CD06E</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9FABA90-C253-7DC7-DD9D-9BEA499D3E40" referredColumn="567DF394-514D-6BB4-A7A0-778A13C74F95"/>
+</associations>
+</Column>
+<Column name="Patron_Card_number" id="631235DE-C9E6-A2EC-198A-C25F97FDABBE">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>B754D215-5437-48DB-EC59-AD6BCF6DBF8E</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92E02478-B617-BEA7-716A-56E59468369B" referredColumn="B0B82C9F-10DF-6A11-FB4E-248F1B188F86"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E2E1818-F098-BC1A-6014-4F817BBF6606" name="Hold_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>411E4551-FBC8-13DD-5354-7BFA6DE54E19</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD421D5F-C445-2CF2-A72F-4872B64E4F72"/>
+<colUsage columnID="7C0E5884-05A5-6A5B-CAD3-2CF8367A6645"/>
+<colUsage columnID="631235DE-C9E6-A2EC-198A-C25F97FDABBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DFC9326-5D4F-7A87-BBFE-F058180D5346" name="Hold_Book_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>94B4F152-EE9D-3394-7AF5-78CD476B37EA</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD421D5F-C445-2CF2-A72F-4872B64E4F72"/>
+<colUsage columnID="7C0E5884-05A5-6A5B-CAD3-2CF8367A6645"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C1D26ED-ECD5-39A6-1DB3-5BCA35AD11C2" name="Hold_Patron_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>219CD343-29E8-2094-093D-78D6D8102B17</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="631235DE-C9E6-A2EC-198A-C25F97FDABBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

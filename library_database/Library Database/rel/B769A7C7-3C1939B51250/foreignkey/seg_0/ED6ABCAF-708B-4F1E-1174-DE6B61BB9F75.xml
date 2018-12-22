@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ED6ABCAF-708B-4F1E-1174-DE6B61BB9F75" containerWithKeyObject="9E54F566-A7AD-E2B3-2E2F-968A67558B57" localFKIndex="82976C7D-3F69-8BA1-4D96-962394935A70" name="Book_checked_out_Patron_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>F8AA9727-EE44-4803-F0DA-15FDC1BA1BDC</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<referredTableLongName>Patron</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C38095AE-94EC-8813-B10C-B251F1997EAB</referredTableID>
+<keyObject>200BFC2A-51A6-30A9-1443-AED973BF8BCC</keyObject>
+<referredKeyID>200BFC2A-51A6-30A9-1443-AED973BF8BCC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Card_number</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

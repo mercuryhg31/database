@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6B12C4D-2EFF-CBD1-F0FE-61D6919B7BFA" name="Employee_shift">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>9B8E1130-6C41-D40B-2B51-865B202E26C1</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<abbreviation>eft</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Shift_Id" id="14CF8395-6E0B-8A67-8183-647F6DEC7D12">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>318A2BD6-3B93-C0D8-B026-4BCE4A595D25</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B14630B-B7DF-117B-4EF9-1024B79D5825" referredColumn="D9EA1F1E-3745-60EF-79D1-7FD78798154F"/>
+</associations>
+</Column>
+<Column name="Employee_Id" id="64DC5E63-424B-A88F-77BF-1A0FDDE98F63">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>9C4E4E9C-24B4-86D6-2CC6-83129DCE8F4F</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFE0249E-65FB-EB4A-5868-C011236FB725" referredColumn="45E1ED4C-32C0-F0E0-6E22-91489ACC4018"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA80A738-0C27-1B92-A929-538D653B70DB" name="Employee_shift_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>844D038D-C93F-7E4F-204D-013FCAAA6ABD</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14CF8395-6E0B-8A67-8183-647F6DEC7D12"/>
+<colUsage columnID="64DC5E63-424B-A88F-77BF-1A0FDDE98F63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E692C66-2F15-2FFE-D3BE-AA6A63DE9744" name="Employee_shift_Employee_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>0146AD3C-E490-A914-FE1E-34E0505E39E5</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64DC5E63-424B-A88F-77BF-1A0FDDE98F63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6941434F-699F-BCE3-0ADB-643A724CEDE2" name="Employee_shift_Shift_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 20:28:10 UTC</createdTime>
+<generatorID>A233A185-BF3D-ECBA-48FD-F1A7608FCA32</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14CF8395-6E0B-8A67-8183-647F6DEC7D12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
