@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E945B161-A8D8-9966-DB3E-8BF0B263B2D1" name="Book checked out">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:07:38 UTC</createdTime>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>cks</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Date checked out" id="D37C83A6-D644-FDC0-EA0A-8B9504148944">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:07:45 UTC</createdTime>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date due back" id="CED2053B-35EE-9208-19C1-1C02ED7675B2">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:08:51 UTC</createdTime>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Late fine due" id="848DC924-2832-307E-8E7F-B2C4E8DC8C19">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:09:03 UTC</createdTime>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Card number" id="0840862B-1739-4C9E-3655-95491788D595">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:10:16 UTC</createdTime>
+<generatorID>F8AA9727-EE44-4803-F0DA-15FDC1BA1BDC</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<referedAttribute>CA748231-94BA-279C-12D2-E7AF19CAE233</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISBN Number" id="F8D66DA8-6314-A1C8-FACE-A15C298C89CA">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:10:45 UTC</createdTime>
+<generatorID>B320910E-8251-3EEA-0B6F-BE6A9FD138CB</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<referedAttribute>AFE11B17-9937-37FB-46E6-C49B3FC5F9AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Copy number" id="EAC39EE8-9500-4277-FA98-8EC1355260F0">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:10:45 UTC</createdTime>
+<generatorID>B320910E-8251-3EEA-0B6F-BE6A9FD138CB</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<referedAttribute>5D96B5D0-0DFD-543B-7F53-6161A3CBCF34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D2A94B3-03E9-60AB-7486-D88C8C36BD03" name="Book checked out PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:10:16 UTC</createdTime>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0840862B-1739-4C9E-3655-95491788D595</attributeRef>
+<attributeRef>F8D66DA8-6314-A1C8-FACE-A15C298C89CA</attributeRef>
+<attributeRef>EAC39EE8-9500-4277-FA98-8EC1355260F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

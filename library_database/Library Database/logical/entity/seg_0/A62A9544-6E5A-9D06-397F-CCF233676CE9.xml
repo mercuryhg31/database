@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A62A9544-6E5A-9D06-397F-CCF233676CE9" name="Book author">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 02:42:24 UTC</createdTime>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>btr</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ISBN Number" id="4B211CA9-A1BA-7FEC-FF2D-D965662611DB">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 02:43:08 UTC</createdTime>
+<generatorID>F96B9E0F-5BAB-8AE5-1329-075A539C8368</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<referedAttribute>AFE11B17-9937-37FB-46E6-C49B3FC5F9AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Copy number" id="7EBD072F-1E61-9252-E271-E45CA7CB9445">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 02:43:08 UTC</createdTime>
+<generatorID>F96B9E0F-5BAB-8AE5-1329-075A539C8368</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<referedAttribute>5D96B5D0-0DFD-543B-7F53-6161A3CBCF34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id" id="073D7574-2720-41D0-5AF2-20384380DCDE">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 02:44:41 UTC</createdTime>
+<generatorID>48D1FF10-B463-24D9-9E73-90E9D2CAD2F3</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<referedAttribute>E3CDFBF0-BBAA-DBB9-2324-B484C86CC7CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A0E8BD4-34E6-2E3B-C826-76C660431AE2" name="Book authors PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 02:43:08 UTC</createdTime>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B211CA9-A1BA-7FEC-FF2D-D965662611DB</attributeRef>
+<attributeRef>7EBD072F-1E61-9252-E271-E45CA7CB9445</attributeRef>
+<attributeRef>073D7574-2720-41D0-5AF2-20384380DCDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

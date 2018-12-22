@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="741F9A92-AAD7-FC82-96FF-31D46B5B9EF2" name="Hold">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:04:23 UTC</createdTime>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>hld</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ISBN Number" id="15EDAC2D-4F95-F800-9D77-55F668992B0D">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:05:43 UTC</createdTime>
+<generatorID>94B4F152-EE9D-3394-7AF5-78CD476B37EA</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<referedAttribute>AFE11B17-9937-37FB-46E6-C49B3FC5F9AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Copy number" id="4803DADD-FB90-011A-8905-F7B8D76CD06E">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:05:43 UTC</createdTime>
+<generatorID>94B4F152-EE9D-3394-7AF5-78CD476B37EA</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<referedAttribute>5D96B5D0-0DFD-543B-7F53-6161A3CBCF34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Card number" id="B754D215-5437-48DB-EC59-AD6BCF6DBF8E">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:06:25 UTC</createdTime>
+<generatorID>219CD343-29E8-2094-093D-78D6D8102B17</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<referedAttribute>CA748231-94BA-279C-12D2-E7AF19CAE233</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="411E4551-FBC8-13DD-5354-7BFA6DE54E19" name="Hold PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:05:43 UTC</createdTime>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15EDAC2D-4F95-F800-9D77-55F668992B0D</attributeRef>
+<attributeRef>4803DADD-FB90-011A-8905-F7B8D76CD06E</attributeRef>
+<attributeRef>B754D215-5437-48DB-EC59-AD6BCF6DBF8E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

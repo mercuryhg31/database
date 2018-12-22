@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Patron_checked" directorySegmentName="seg_0" id="F8AA9727-EE44-4803-F0DA-15FDC1BA1BDC">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:10:16 UTC</createdTime>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<sourcePk>C1A8B6C5-654C-DCFE-9868-7548DAF8C88B</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Borrowing</nameOnSource>
+<nameOnTarget>Borrowed by</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>81217C86-8224-199F-870C-B3502C8D6AC4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E945B161-A8D8-9966-DB3E-8BF0B263B2D1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

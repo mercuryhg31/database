@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Shift_employee_shift" directorySegmentName="seg_0" id="A233A185-BF3D-ECBA-48FD-F1A7608FCA32">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:01:31 UTC</createdTime>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<sourcePk>886663A5-3018-748D-F106-510178D4B556</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Worked by</nameOnSource>
+<nameOnTarget>Working on</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F27DAC18-F154-C54B-F7B5-AF40DD9A7C83</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9B8E1130-6C41-D40B-2B51-865B202E26C1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

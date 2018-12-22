@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Book_checked" directorySegmentName="seg_0" id="B320910E-8251-3EEA-0B6F-BE6A9FD138CB">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:10:45 UTC</createdTime>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<sourcePk>E34E8FF4-9323-8316-B4FB-2D7352152E84</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Borrowed by</nameOnSource>
+<nameOnTarget>Borrowing</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>71B71B96-90F8-3146-2019-D36852713516</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E945B161-A8D8-9966-DB3E-8BF0B263B2D1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

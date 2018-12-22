@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B8E1130-6C41-D40B-2B51-865B202E26C1" name="Employee shift">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 02:58:29 UTC</createdTime>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>eft</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="318A2BD6-3B93-C0D8-B026-4BCE4A595D25">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:01:31 UTC</createdTime>
+<generatorID>A233A185-BF3D-ECBA-48FD-F1A7608FCA32</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<referedAttribute>939C44F7-13EE-2833-788B-93B7BC9916BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="9C4E4E9C-24B4-86D6-2CC6-83129DCE8F4F">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:02:21 UTC</createdTime>
+<generatorID>0146AD3C-E490-A914-FE1E-34E0505E39E5</generatorID>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<referedAttribute>9DED023E-E883-656B-3FC5-3E6DEFA78E7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="844D038D-C93F-7E4F-204D-013FCAAA6ABD" name="Employee shifts PK">
+<createdBy>harsh</createdBy>
+<createdTime>2018-12-22 03:01:22 UTC</createdTime>
+<ownerDesignName>Library Database</ownerDesignName>
+<engineerTo>
+<item key="B769A7C7-5650-788A-80E4-3C1939B51250" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>318A2BD6-3B93-C0D8-B026-4BCE4A595D25</attributeRef>
+<attributeRef>9C4E4E9C-24B4-86D6-2CC6-83129DCE8F4F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
