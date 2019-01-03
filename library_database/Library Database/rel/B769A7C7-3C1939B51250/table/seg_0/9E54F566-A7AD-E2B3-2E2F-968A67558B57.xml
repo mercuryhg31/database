@@ -54,14 +54,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="ED6ABCAF-708B-4F1E-1174-DE6B61BB9F75" referredColumn="B0B82C9F-10DF-6A11-FB4E-248F1B188F86"/>
 </associations>
 </Column>
-<Column name="Book_ISBN_Number" id="0D1CB3F0-97F6-0D40-C0ED-1BC8B789E938">
+<Column name="Book_ISBN_number" id="0D1CB3F0-97F6-0D40-C0ED-1BC8B789E938">
 <createdBy>harsh</createdBy>
 <createdTime>2018-12-22 20:28:10 UTC</createdTime>
 <generatorID>F8D66DA8-6314-A1C8-FACE-A15C298C89CA</generatorID>
@@ -70,7 +70,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -86,7 +86,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
