@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3667368D-B6BB-6433-3318-6B2CD717F6A6" mainViewID="3E624BB2-D114-1DBC-84E3-2F9D20953326">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-03-01 14:31:35 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

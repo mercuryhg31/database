@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="076AB22B-3697-88EB-3E85-9B1957CCA5EA">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-03-01 14:31:36 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
