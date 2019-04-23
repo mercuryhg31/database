@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Patient visits" directorySegmentName="seg_0" id="2AD0D2A6-F323-14D4-9B25-47C085313FC8">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-04-23 13:53:38 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+</engineerTo>
+<sourcePk>8E889191-03A3-05FD-D0A9-FFD096B70E66</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>subject of</nameOnSource>
+<nameOnTarget>pertaining to</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4F30B86E-3E64-78A4-DBF9-9A5BDF317389</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>545A1BCF-E516-8A5F-C3B8-66245B6BC79C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27875A64-83B5-EE5B-C142-F587DEC8E758" name="Prescription">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-04-23 13:58:38 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>prp</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Patient Id" id="8776FC59-AA78-1B55-9690-CDDD8E451855">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-04-23 13:59:11 UTC</createdTime>
+<generatorID>304E6E71-9554-6BF6-BBD0-DF0601758691</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+</engineerTo>
+<referedAttribute>0FEFD49A-FA13-41A1-DAA9-FA477235E770</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Provider Id" id="36E172B0-E7C7-0ED9-00C0-291CA45A7E44">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-04-23 14:00:15 UTC</createdTime>
+<generatorID>3A140172-6BD0-8A7A-A9C6-54032B1B5896</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+</engineerTo>
+<referedAttribute>81F0F78D-2472-6016-0850-DAB3FDFEF013</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drug Id" id="C7F20F33-A5BF-5C21-D9E3-828B007F8945">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-04-23 14:09:44 UTC</createdTime>
+<generatorID>03EF788F-FD6A-C15E-9E61-3276F8C286CE</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+</engineerTo>
+<referedAttribute>EF9DF7C3-FA82-5A14-5E13-8DDD857E030C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datetime" id="C4CD08A1-7532-F2CC-2353-C45E04B1BD0E">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-04-23 14:11:46 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C2D07EC-FFBD-8E9D-65A3-099C038CF0BB" name="Prescription PK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-04-23 13:59:11 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8776FC59-AA78-1B55-9690-CDDD8E451855</attributeRef>
+<attributeRef>36E172B0-E7C7-0ED9-00C0-291CA45A7E44</attributeRef>
+<attributeRef>C7F20F33-A5BF-5C21-D9E3-828B007F8945</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
