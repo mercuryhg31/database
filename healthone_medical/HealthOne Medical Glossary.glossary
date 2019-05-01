@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<cwd_glossary name="HealthOne Medical" description="generated from logical model of design HealthOne Medical" id="45082EB2-DF44-B137-4737-135E8703A3D8" incomplete_modifiers="true" >
+
+   <glossaryWord name="Patient" plural="PATIENTS" abbreviation="pnt" alt_abbreviation="" id="3AA08343-0A38-0F44-E384-E14B47EC296C" import_id="" description="" />
+   <glossaryWord name="Insurance company" plural="INSURANCE COMPANIES" abbreviation="ins" alt_abbreviation="" id="AC4DFF03-3672-734F-401B-6E90FC2A95D1" import_id="" description="" />
+   <glossaryWord name="Provider" plural="PROVIDER" abbreviation="pvd" alt_abbreviation="" id="77A66FD0-A18D-28D1-05D8-11D17CDE2837" import_id="" description="" />
+   <glossaryWord name="Hospital" plural="HOSPITALS" abbreviation="hpt" alt_abbreviation="" id="A7037F38-D272-641E-A534-D32F38704B6C" import_id="" description="" />
+   <glossaryWord name="Prescription" plural="PRESCIPTIONS" abbreviation="prp" alt_abbreviation="" id="CADE7538-67D2-75F2-CDC9-AB4309A12B42" import_id="" description="" />
+   <glossaryWord name="Drug" plural="DRUGS" abbreviation="drg" alt_abbreviation="" id="83334DFF-6562-A259-8183-65A08E744C5C" import_id="" description="" />
+   <glossaryWord name="Visit" plural="VISITS" abbreviation="vts" alt_abbreviation="" id="2F115299-9F28-18B7-4942-C60402D16B82" import_id="" description="" />
+   <glossaryWord name="Hospital affiliation" plural="HOSPITAL AFFILIATIONS" abbreviation="haf" alt_abbreviation="" id="52234BED-E3E2-3D6E-C592-1C630CE2105C" import_id="" description="" />
+   <glossaryWord name="Primary provider" plural="PRIMARY PROVIDERS" abbreviation="ppr" alt_abbreviation="" id="117D9C23-B735-AAA5-3155-9AFE47CD4585" import_id="" description="" />
+   <glossaryWord name="Insurance Id" plural="" abbreviation="ins_id" alt_abbreviation="" id="6BF2B400-7CB0-2D54-E591-79FB40444A09" import_id="" description="" />
+   <glossaryWord name="Patient Id" plural="" abbreviation="pnt_id" alt_abbreviation="" id="9476CA41-FFC6-A639-1314-572090BBAFFB" import_id="" description="" />
+   <glossaryWord name="Provider Id" plural="" abbreviation="pvd_id" alt_abbreviation="" id="C87A1D32-58F6-D53E-EFF5-CEC7E3E6F831" import_id="" description="" />
+   <glossaryWord name="Drug Id" plural="" abbreviation="drg_id" alt_abbreviation="" id="2930D809-F565-DA0B-45F4-521AFB3B3370" import_id="" description="" />
+   <glossaryWord name="Hospital Id" plural="" abbreviation="hpt_id" alt_abbreviation="" id="0EB9E9F1-FDDB-71EE-23E0-B7C81E064264" import_id="" description="" />
+
+</cwd_glossary>

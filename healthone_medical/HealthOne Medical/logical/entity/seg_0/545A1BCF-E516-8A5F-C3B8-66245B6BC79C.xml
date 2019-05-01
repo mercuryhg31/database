@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="545A1BCF-E516-8A5F-C3B8-66245B6BC79C" name="Visits">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="545A1BCF-E516-8A5F-C3B8-66245B6BC79C" name="Visit">
 <createdBy>hgarg</createdBy>
 <createdTime>2019-04-23 13:51:14 UTC</createdTime>
 <ownerDesignName>HealthOne Medical</ownerDesignName>
 <engineerTo>
-<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2019-04-23 13:51:49 UTC</createdTime>
 <ownerDesignName>HealthOne Medical</ownerDesignName>
 <engineerTo>
-<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,7 +35,7 @@
 <createdTime>2019-04-23 13:52:21 UTC</createdTime>
 <ownerDesignName>HealthOne Medical</ownerDesignName>
 <engineerTo>
-<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +47,7 @@
 <createdTime>2019-04-23 13:53:16 UTC</createdTime>
 <ownerDesignName>HealthOne Medical</ownerDesignName>
 <engineerTo>
-<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -61,7 +61,7 @@
 <generatorID>2AD0D2A6-F323-14D4-9B25-47C085313FC8</generatorID>
 <ownerDesignName>HealthOne Medical</ownerDesignName>
 <engineerTo>
-<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
 </engineerTo>
 <referedAttribute>0FEFD49A-FA13-41A1-DAA9-FA477235E770</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,7 +76,7 @@
 <generatorID>223C3A5B-067E-8789-DB51-8782FA34E160</generatorID>
 <ownerDesignName>HealthOne Medical</ownerDesignName>
 <engineerTo>
-<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
 </engineerTo>
 <referedAttribute>81F0F78D-2472-6016-0850-DAB3FDFEF013</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -91,7 +91,7 @@
 <generatorID>2073F23E-E43C-CB50-D4AC-02191A90991F</generatorID>
 <ownerDesignName>HealthOne Medical</ownerDesignName>
 <engineerTo>
-<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
 </engineerTo>
 <referedAttribute>EF084048-466C-19F8-DCC9-2094A0D6599C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -102,12 +102,12 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="AF2F50F1-B579-CA06-9B5F-19E51BF76E74" name="Visits PK">
+<identifier id="AF2F50F1-B579-CA06-9B5F-19E51BF76E74" name="Visit PK">
 <createdBy>hgarg</createdBy>
 <createdTime>2019-04-23 13:53:38 UTC</createdTime>
 <ownerDesignName>HealthOne Medical</ownerDesignName>
 <engineerTo>
-<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
