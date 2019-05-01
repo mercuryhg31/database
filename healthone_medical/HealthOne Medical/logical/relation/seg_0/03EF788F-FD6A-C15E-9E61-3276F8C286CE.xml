@@ -6,11 +6,12 @@
 <engineerTo>
 <item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
 </engineerTo>
+<targetTransferable>false</targetTransferable>
 <sourcePk>F1ADFB1E-FAEC-BAFC-2697-C3A6B2E1A25A</sourcePk>
 <identifying>true</identifying>
 <nameOnSource>Prescribed</nameOnSource>
 <nameOnTarget>Prescribing</nameOnTarget>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>228D096E-8107-C4AB-695B-1F11A7A2D67C</sourceEntity>

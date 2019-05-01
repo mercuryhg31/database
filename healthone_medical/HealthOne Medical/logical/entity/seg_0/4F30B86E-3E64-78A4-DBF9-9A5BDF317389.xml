@@ -107,6 +107,21 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Patient Id1" id="BB2642A0-7D33-82E6-64AB-AAA71AFE14BD">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-01 14:01:32 UTC</createdTime>
+<generatorID>6D9CE14D-DB76-7105-6442-E6E5C26C0CE9</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
+</engineerTo>
+<referedAttribute>0FEFD49A-FA13-41A1-DAA9-FA477235E770</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

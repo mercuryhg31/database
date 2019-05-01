@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Hospital visits" directorySegmentName="seg_0" id="2073F23E-E43C-CB50-D4AC-02191A90991F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Hospital hosital affiliation" directorySegmentName="seg_0" id="2AD935C3-9EC2-F070-BA19-36DA24AF4842">
 <createdBy>hgarg</createdBy>
-<createdTime>2019-04-23 13:58:01 UTC</createdTime>
+<createdTime>2019-05-01 13:41:27 UTC</createdTime>
 <ownerDesignName>HealthOne Medical</ownerDesignName>
 <engineerTo>
 <item key="80042F73-D19E-7AD8-E355-616FC16DEB75" value="true"/>
 </engineerTo>
 <sourcePk>AFE0052B-7332-BBC1-226D-19BF2DFD2CB8</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>Location of</nameOnSource>
-<nameOnTarget>Located at</nameOnTarget>
+<nameOnSource>Affiliated with</nameOnSource>
+<nameOnTarget>Affiliated with</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>16F578FE-83D4-1995-68B6-669BF55C3B8B</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>545A1BCF-E516-8A5F-C3B8-66245B6BC79C</targetEntity>
+<targetEntity>FD2200B7-2671-4CA5-07B7-7064E0C9FC4A</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
