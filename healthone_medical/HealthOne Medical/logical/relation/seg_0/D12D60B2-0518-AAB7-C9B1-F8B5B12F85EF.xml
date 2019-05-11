@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Prescription refillable" directorySegmentName="seg_0" id="D12D60B2-0518-AAB7-C9B1-F8B5B12F85EF">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-04 17:08:23 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
+</engineerTo>
+<sourcePk>5C2D07EC-FFBD-8E9D-65A3-099C038CF0BB</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Is</nameOnSource>
+<nameOnTarget>Describing</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>27875A64-83B5-EE5B-C142-F587DEC8E758</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E44D4340-B749-76F6-139B-2C6ED9109F82</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

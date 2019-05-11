@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E44D4340-B749-76F6-139B-2C6ED9109F82" name="Refillable">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-04 17:07:22 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>rfl</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Refill number" id="2B7C5DE9-98B0-2D08-5D16-D5D20A2EEBE7">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-04 17:07:29 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Refill size" id="43D5364F-E1D6-6428-170F-D03B43A81E7E">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-04 17:07:44 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Patient Id" id="A2999501-66BF-5E1D-9B2C-DA14347D2B4B">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-04 17:09:01 UTC</createdTime>
+<generatorID>D12D60B2-0518-AAB7-C9B1-F8B5B12F85EF</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
+</engineerTo>
+<referedAttribute>8776FC59-AA78-1B55-9690-CDDD8E451855</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Provider Id" id="C6D094D6-3959-031B-A0FD-AF0C2292F2A5">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-04 17:09:01 UTC</createdTime>
+<generatorID>D12D60B2-0518-AAB7-C9B1-F8B5B12F85EF</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
+</engineerTo>
+<referedAttribute>36E172B0-E7C7-0ED9-00C0-291CA45A7E44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drug Id" id="227B7B4C-D3E7-A1FB-8323-4DB96B049E0B">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-04 17:09:01 UTC</createdTime>
+<generatorID>D12D60B2-0518-AAB7-C9B1-F8B5B12F85EF</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
+</engineerTo>
+<referedAttribute>C7F20F33-A5BF-5C21-D9E3-828B007F8945</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="CC7D9FE4-BCA4-0387-1EEE-22424793174B">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-04 17:09:01 UTC</createdTime>
+<generatorID>D12D60B2-0518-AAB7-C9B1-F8B5B12F85EF</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="66975A24-6937-3166-B268-D50D7DBEA5DC" value="true"/>
+</engineerTo>
+<referedAttribute>C4CD08A1-7532-F2CC-2353-C45E04B1BD0E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
