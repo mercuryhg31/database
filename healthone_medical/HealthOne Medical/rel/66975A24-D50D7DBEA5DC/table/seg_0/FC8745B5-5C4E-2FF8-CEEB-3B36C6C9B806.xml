@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC8745B5-5C4E-2FF8-CEEB-3B36C6C9B806" name="New_issue">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>7D28CC84-D2DB-1CB9-663A-17C0CB8907BA</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<abbreviation>nis</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nis_Diagnosis" id="FA11DC1C-AD72-73CD-4197-2AC68B929E7A">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>7A37D3C4-B607-938D-8646-CC66AD639E9E</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Provider_Id" id="237A2180-6239-709B-F518-4E4F35C2FF46">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>F0944435-FBEF-8E16-E5D1-6B96DFD15576</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47E1FC70-04D8-11C1-0842-D64ADC2F67A2" referredColumn="B856579E-3689-543A-8444-57F21205BEDC"/>
+</associations>
+</Column>
+<Column name="Hospital_Id" id="C996655F-6E88-69C7-5493-D11470BC269E">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>B0FE937D-07EC-DBDF-6FEB-EA8B7FBE6E1F</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47E1FC70-04D8-11C1-0842-D64ADC2F67A2" referredColumn="57554396-391E-CE92-515B-CA821220637F"/>
+</associations>
+</Column>
+<Column name="Patient_Id" id="A07CE2EA-C2C9-C524-1BBA-44E70C3BC9C6">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>5E47B9E4-61ED-D75B-8A60-12C2C9E16E79</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47E1FC70-04D8-11C1-0842-D64ADC2F67A2" referredColumn="B91F32D3-BF37-B0B5-983E-0BA6B4E0EF7B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BA6C4A5-D18C-0B69-64B3-5A1108C01900" name="New_issue_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>AF2F50F1-B579-CA06-9B5F-19E51BF76E74</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A07CE2EA-C2C9-C524-1BBA-44E70C3BC9C6"/>
+<colUsage columnID="237A2180-6239-709B-F518-4E4F35C2FF46"/>
+<colUsage columnID="C996655F-6E88-69C7-5493-D11470BC269E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8174A59-A244-05F9-6643-434DA126CE88" name="New_issue_Visit_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>B08E3578-AA9C-A830-17C3-99C52AB6D033</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A07CE2EA-C2C9-C524-1BBA-44E70C3BC9C6"/>
+<colUsage columnID="237A2180-6239-709B-F518-4E4F35C2FF46"/>
+<colUsage columnID="C996655F-6E88-69C7-5493-D11470BC269E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

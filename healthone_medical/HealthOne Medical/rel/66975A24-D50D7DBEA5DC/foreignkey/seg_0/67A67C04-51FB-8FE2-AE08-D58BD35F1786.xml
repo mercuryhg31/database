@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="67A67C04-51FB-8FE2-AE08-D58BD35F1786" containerWithKeyObject="25C67322-7B07-7E3A-D2A1-4CDE98971D05" localFKIndex="09C5C010-9CA7-AFBA-E150-55755A613C3E" name="Hospital_affiliation_Hospital_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>2AD935C3-9EC2-F070-BA19-36DA24AF4842</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<referredTableLongName>Hospital</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>02DB5579-6711-D20C-0A40-CA0E4475FBD2</referredTableID>
+<keyObject>33A340E4-9B1D-A897-C602-1CD1F9E2D1FE</keyObject>
+<referredKeyID>33A340E4-9B1D-A897-C602-1CD1F9E2D1FE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Hospital_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

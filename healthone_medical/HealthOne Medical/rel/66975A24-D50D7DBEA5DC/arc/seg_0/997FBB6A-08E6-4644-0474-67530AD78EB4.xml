@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="997FBB6A-08E6-4644-0474-67530AD78EB4" name="FKArc_1">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>8DBD239C-4EB3-43DB-8754-DE57EC48DD8B</table>
+<fkeys>
+<fkeyID>D78C8962-23D2-90E4-6071-61622FC64373</fkeyID>
+<fkeyID>47E1FC70-04D8-11C1-0842-D64ADC2F67A2</fkeyID>
+<fkeyID>91E65EDD-1B3E-793E-9147-289C786578DB</fkeyID>
+</fkeys>
+</FKArc>

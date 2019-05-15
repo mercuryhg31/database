@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02DB5579-6711-D20C-0A40-CA0E4475FBD2" name="Hospital">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>16F578FE-83D4-1995-68B6-669BF55C3B8B</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<abbreviation>hpt</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Hospital_Id" id="048F6BC1-8272-96B0-1CDF-7BA90097D491">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>EF084048-466C-19F8-DCC9-2094A0D6599C</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="497A2B5A-9D89-1457-6D50-BB5F9EFCFB0B">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>06F54070-D8DF-34AD-153E-B6E3307EE2B4</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="6AA85D5B-9955-FAD3-C14C-8FAD8622480B">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>465D2EC0-45FE-651D-5CEA-16FE25753572</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_number" id="D5037054-5E13-4202-DB30-6D9ABF21EE34">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>F44DCFB0-FA42-1F0D-A67F-D97BFE0B97E3</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33A340E4-9B1D-A897-C602-1CD1F9E2D1FE" name="Hospital_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>AFE0052B-7332-BBC1-226D-19BF2DFD2CB8</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="048F6BC1-8272-96B0-1CDF-7BA90097D491"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

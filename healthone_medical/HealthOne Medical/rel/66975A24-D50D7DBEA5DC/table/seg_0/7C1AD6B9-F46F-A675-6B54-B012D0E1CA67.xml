@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C1AD6B9-F46F-A675-6B54-B012D0E1CA67" name="Prescription">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>27875A64-83B5-EE5B-C142-F587DEC8E758</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<abbreviation>prp</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Patient_Patient_Id" id="EB6080B8-EDFE-110E-520A-B8D906CC0F4A">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>8776FC59-AA78-1B55-9690-CDDD8E451855</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44CDA131-22D7-F848-F9D7-17A6DFB018AA" referredColumn="93875878-E813-8F15-A37A-581747A756A0"/>
+</associations>
+</Column>
+<Column name="Provider_Provider_Id" id="58B1B494-2826-F458-C471-1DEF177C9292">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>36E172B0-E7C7-0ED9-00C0-291CA45A7E44</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EAD51BB-65BA-C7C0-04E4-79787143CC48" referredColumn="375C5995-B6EB-4369-D83B-515E250D2253"/>
+</associations>
+</Column>
+<Column name="Drug_Drug_Id" id="1FE764EB-8B51-EDFE-7D34-50E807072837">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>C7F20F33-A5BF-5C21-D9E3-828B007F8945</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70049ADD-0B65-B425-E256-16F008F08553" referredColumn="E397C334-6626-981D-E783-2B51119E699C"/>
+</associations>
+</Column>
+<Column name="Date" id="6426ED95-ECC4-2A60-B7F3-3005DEC6A584">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>C4CD08A1-7532-F2CC-2353-C45E04B1BD0E</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Provider_notes" id="0F7478FE-E54E-0AA9-C196-527FDACCA4F6">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>A236C8AD-791B-F5A1-B0B5-275CC00502CA</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dosage" id="274E4248-A8F4-86E4-DB61-F4F28EBAC2B5">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>43DC3C46-859D-1A7E-CF1B-8363454BBD6E</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Duration_of_RX" id="8C0BE685-FB21-1A64-6464-DCBE879D8170">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>3A531B08-37D8-EF15-5839-0D92FCBD27BD</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_of_refills" id="1483EDC8-3249-6DA3-0904-3F080ACD4E16">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>059074C5-E744-9A8F-1845-B8F484D56CE7</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Size_of_refills" id="7B2C6783-CF2C-72C0-493A-3C62D013B038">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>20C564B5-1D30-B34A-FFEE-CD76983C99E3</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51F848F0-9B5A-019A-859B-F2D8410EA72E" name="Prescription_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>5C2D07EC-FFBD-8E9D-65A3-099C038CF0BB</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB6080B8-EDFE-110E-520A-B8D906CC0F4A"/>
+<colUsage columnID="58B1B494-2826-F458-C471-1DEF177C9292"/>
+<colUsage columnID="1FE764EB-8B51-EDFE-7D34-50E807072837"/>
+<colUsage columnID="6426ED95-ECC4-2A60-B7F3-3005DEC6A584"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="248E5A46-FEF5-FF6C-29C2-F667BAF9BD18" name="Prescription_Drug_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>03EF788F-FD6A-C15E-9E61-3276F8C286CE</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FE764EB-8B51-EDFE-7D34-50E807072837"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="613D9C65-7A53-6BCB-9A49-BEA4B894B47F" name="Prescription_Patient_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>304E6E71-9554-6BF6-BBD0-DF0601758691</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB6080B8-EDFE-110E-520A-B8D906CC0F4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="583748F8-EEAA-45FA-73E8-1E80E0C0419C" name="Prescription_Provider_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>3A140172-6BD0-8A7A-A9C6-54032B1B5896</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58B1B494-2826-F458-C471-1DEF177C9292"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

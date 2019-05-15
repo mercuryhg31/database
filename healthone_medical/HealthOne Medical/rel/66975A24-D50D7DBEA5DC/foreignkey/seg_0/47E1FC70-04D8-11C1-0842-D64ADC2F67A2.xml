@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="47E1FC70-04D8-11C1-0842-D64ADC2F67A2" containerWithKeyObject="FC8745B5-5C4E-2FF8-CEEB-3B36C6C9B806" localFKIndex="A8174A59-A244-05F9-6643-434DA126CE88" name="New_issue_Visit_FK">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>B08E3578-AA9C-A830-17C3-99C52AB6D033</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<referredTableLongName>Visit</referredTableLongName>
+<arc>997FBB6A-08E6-4644-0474-67530AD78EB4</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8DBD239C-4EB3-43DB-8754-DE57EC48DD8B</referredTableID>
+<keyObject>2F370257-3F3F-734A-048B-212EB744551D</keyObject>
+<referredKeyID>2F370257-3F3F-734A-048B-212EB744551D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Patient_Patient_Id,Provider_Provider_Id,Hospital_Hospital_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

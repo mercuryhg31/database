@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EDF5C43-08F7-1CDA-277D-DC9A8AEB918A" name="Drug">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>228D096E-8107-C4AB-695B-1F11A7A2D67C</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<abbreviation>drg</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Drug_Id" id="E397C334-6626-981D-E783-2B51119E699C">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>EF9DF7C3-FA82-5A14-5E13-8DDD857E030C</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="EE5D6293-28CC-1672-792B-2E6AC99E437A">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>E6AC6B8C-C1BC-BD1B-697E-42DCC931BFF7</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Purpose" id="CC25DB21-594F-4DF0-6BB9-F8DB22675120">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>7DA08760-2529-3643-13EB-23894943166D</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Side_effects" id="F9FE01E5-401F-8412-BBFE-4D279D2C658B">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>315FAEBA-88E2-0F2A-B33B-3D1D77E78A8C</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="902A23C4-6C54-0F19-9178-BC7E49E18F26" name="Drug_PK">
+<createdBy>harsh</createdBy>
+<createdTime>2019-05-12 20:41:00 UTC</createdTime>
+<generatorID>F1ADFB1E-FAEC-BAFC-2697-C3A6B2E1A25A</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E397C334-6626-981D-E783-2B51119E699C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
