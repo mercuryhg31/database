@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C57352A1-D1B2-214D-7379-73E13B726069" name="Drug side effect">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:01:50 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="B1FE1357-1549-B568-C911-AD1BAFF92D87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>dsf</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Drug Id" id="C927AA3F-7F16-5E4B-4FD8-45676EBA23E3">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:03:37 UTC</createdTime>
+<generatorID>70BC8EB6-57DD-BF1D-80F1-BB476553B583</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="B1FE1357-1549-B568-C911-AD1BAFF92D87" value="true"/>
+</engineerTo>
+<referedAttribute>EF9DF7C3-FA82-5A14-5E13-8DDD857E030C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C4B4619-9387-F385-9AD5-146D6E9F578B" name="Drug side effect PK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:03:37 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="B1FE1357-1549-B568-C911-AD1BAFF92D87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C927AA3F-7F16-5E4B-4FD8-45676EBA23E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

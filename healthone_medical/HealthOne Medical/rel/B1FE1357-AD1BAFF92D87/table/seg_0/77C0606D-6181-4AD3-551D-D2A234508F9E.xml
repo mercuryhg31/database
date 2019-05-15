@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77C0606D-6181-4AD3-551D-D2A234508F9E" name="Hospital_affiliations">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>FD2200B7-2671-4CA5-07B7-7064E0C9FC4A</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<ordsAlias>haf</ordsAlias>
+<abbreviation>haf</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pvd_id" id="78292D43-C25C-C40D-2962-3280997757B2">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>4648C465-7B25-9D9C-0E7B-F466667D8881</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACFCEA32-BBAD-7D5D-09F1-5CF66835D7E0" referredColumn="F7E70728-CDAF-786F-1104-88A04DE1BB0D"/>
+</associations>
+</Column>
+<Column name="hpt_id" id="09BA6392-E2E4-7441-0846-38E21F33B810">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>9618F236-D897-47C7-1363-2ACF8A799FD2</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F839D9C5-31E6-A522-E1B5-C047C2A82A17" referredColumn="455CD2E1-6FFC-9F21-8B09-0EC5033F0EDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="851C6108-F544-E1EE-94FE-F1057C3C2A04" name="Hospital_affiliation_PK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>53DBB6CB-BA7A-AC4B-EA20-4F246D49F807</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78292D43-C25C-C40D-2962-3280997757B2"/>
+<colUsage columnID="09BA6392-E2E4-7441-0846-38E21F33B810"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="016CB376-30DF-B95A-9EE0-4E220DE402F0" name="Hospital_affiliation_Hospital_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>2AD935C3-9EC2-F070-BA19-36DA24AF4842</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09BA6392-E2E4-7441-0846-38E21F33B810"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B6526AE-A466-B68A-0C15-6253D1C0B973" name="Hospital_affiliation_Provider_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>40C61FBC-3634-028F-FC9C-01EA324B9B31</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78292D43-C25C-C40D-2962-3280997757B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

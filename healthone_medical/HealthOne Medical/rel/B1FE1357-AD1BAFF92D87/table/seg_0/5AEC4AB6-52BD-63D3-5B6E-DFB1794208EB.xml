@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5AEC4AB6-52BD-63D3-5B6E-DFB1794208EB" name="Drug_side_effects">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>C57352A1-D1B2-214D-7379-73E13B726069</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<ordsAlias>dsf</ordsAlias>
+<abbreviation>dsf</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="drg_id" id="18B70594-289F-C742-82C9-DDD7EE923061">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>C927AA3F-7F16-5E4B-4FD8-45676EBA23E3</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5684447E-27BB-6BBA-6E15-F73368B43AF8" referredColumn="69522838-A522-BF43-8A2B-E55B9B50BCFE"/>
+</associations>
+</Column>
+<Column name="sef_id" id="CF077A08-483F-A4FE-A64E-268044039835">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F709DE0-4C84-123B-EAB8-82C8645269FB" referredColumn="5FCC6755-9B12-CC5D-BD4C-8E1815A546F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21C35F69-7A50-3F87-C0C5-BE557A722782" name="Drug_side_effect_PK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>3C4B4619-9387-F385-9AD5-146D6E9F578B</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18B70594-289F-C742-82C9-DDD7EE923061"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB7BCA27-EEF4-009C-0AB3-2C07F276CA3C" name="Drug_side_effect_Drug_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>70BC8EB6-57DD-BF1D-80F1-BB476553B583</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18B70594-289F-C742-82C9-DDD7EE923061"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BD1B7D3-33ED-5712-2F59-C5CF9E393140" name="Drug_side_effect_Side_effect_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>C5184990-69B2-F76E-A45C-4B07523A5F68</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF077A08-483F-A4FE-A64E-268044039835"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

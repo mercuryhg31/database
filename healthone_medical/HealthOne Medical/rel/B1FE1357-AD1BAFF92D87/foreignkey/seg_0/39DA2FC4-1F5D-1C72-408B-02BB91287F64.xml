@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="39DA2FC4-1F5D-1C72-408B-02BB91287F64" containerWithKeyObject="1BC50B41-00DE-625E-A6EF-1D184C2714AC" localFKIndex="471FA88D-E10A-D74F-7D1D-101EC5B7344E" name="Refillable_Prescription_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>D12D60B2-0518-AAB7-C9B1-F8B5B12F85EF</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<referredTableLongName>Prescription</referredTableLongName>
+<arc>187A0B51-C45E-E1D3-7510-FEF0800B32A3</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9FE4CB60-FA5F-D36F-4EFA-EF78D5C3A286</referredTableID>
+<keyObject>2027255B-A640-7C95-4DC5-5F0097AA47CB</keyObject>
+<referredKeyID>2027255B-A640-7C95-4DC5-5F0097AA47CB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Patient_Patient_Id,Provider_Provider_Id,Drug_Drug_Id,Date</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

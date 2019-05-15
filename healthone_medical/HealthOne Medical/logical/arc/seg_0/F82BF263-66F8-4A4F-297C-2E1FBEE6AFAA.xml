@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="F82BF263-66F8-4A4F-297C-2E1FBEE6AFAA" name="Arc_1">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 13:32:23 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="B1FE1357-1549-B568-C911-AD1BAFF92D87" value="true"/>
+</engineerTo>
+<entity>27875A64-83B5-EE5B-C142-F587DEC8E758</entity>
+<relations>
+<relationID>D12D60B2-0518-AAB7-C9B1-F8B5B12F85EF</relationID>
+<relationID>C5CE6A7E-11D1-6FC6-1E71-13A6F1C1AC92</relationID>
+</relations>
+</Arc>

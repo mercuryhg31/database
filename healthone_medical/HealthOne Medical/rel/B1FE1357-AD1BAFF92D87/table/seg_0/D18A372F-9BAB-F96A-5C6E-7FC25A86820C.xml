@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D18A372F-9BAB-F96A-5C6E-7FC25A86820C" name="Primary_providers">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>24ACDEE7-E4E2-0710-58D6-AE848D749D25</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<ordsAlias>ppr</ordsAlias>
+<abbreviation>ppr</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="date_assigned" id="602F141C-3FA3-63A0-B2D1-B364CC5373BB">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>972F5E48-D30B-C5C4-1181-CE709C639B29</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pnt_id" id="DECE16B2-360F-B37A-8DE9-2A322EDDF804">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>C5B8E69B-DABF-69F6-22B9-570A6B882F73</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B827E97-4B60-F9CA-F31D-04DE2AC63CBF" referredColumn="86781BAB-433D-FE95-1C36-C4DA72046125"/>
+</associations>
+</Column>
+<Column name="pvd_id" id="779B543D-2EE8-2B5A-0F72-2826FC3F1145">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>D036AFE7-17E4-C569-CEE9-A04E532496DC</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CC29643-F8BC-A485-E856-DE011D0806C2" referredColumn="F7E70728-CDAF-786F-1104-88A04DE1BB0D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="608A2512-0A04-905B-ED3F-B2B74383DCE5" name="Primary_provider_PK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>03C893ED-C37F-D7C9-0AC2-1930A24552F1</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="602F141C-3FA3-63A0-B2D1-B364CC5373BB"/>
+<colUsage columnID="DECE16B2-360F-B37A-8DE9-2A322EDDF804"/>
+<colUsage columnID="779B543D-2EE8-2B5A-0F72-2826FC3F1145"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AF079E0-A516-1F71-3239-564CB32B45DB" name="Primary_provider_Patient_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>4936EF67-16FB-D992-177F-D17172F29BA8</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DECE16B2-360F-B37A-8DE9-2A322EDDF804"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4C34CAA-3646-C803-B481-843639AED2D2" name="Primary_provider_Provider_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>21A4735E-B1DD-98D6-01AC-FD30AD535A31</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="779B543D-2EE8-2B5A-0F72-2826FC3F1145"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

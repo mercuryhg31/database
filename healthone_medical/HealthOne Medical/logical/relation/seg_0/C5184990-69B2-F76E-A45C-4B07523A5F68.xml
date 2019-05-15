@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Side effect drug side effect" directorySegmentName="seg_0" id="C5184990-69B2-F76E-A45C-4B07523A5F68">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:02:44 UTC</createdTime>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<engineerTo>
+<item key="B1FE1357-1549-B568-C911-AD1BAFF92D87" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<nameOnSource>Applicable to</nameOnSource>
+<nameOnTarget>Contains</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CC3DADA0-D694-A0A5-39B5-0BB9326920A1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C57352A1-D1B2-214D-7379-73E13B726069</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFE64AA8-B0B1-A0BF-806A-F9134745145F" name="Nonrefillable">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>A241C25A-179C-1B1C-13FF-88A78685254D</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<ordsAlias>nfl</ordsAlias>
+<abbreviation>nfl</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prp_pnt_id" id="9565909C-49D6-0D3B-232A-309E682AE437">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>D2117B64-F2CB-3844-C101-68F3E793B33F</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="066E6A0B-3D50-BF9A-F3A8-7D1AB1AA7917" referredColumn="971704DB-1011-0E00-94F2-FA4FEE373F33"/>
+</associations>
+</Column>
+<Column name="prp_pvd_id" id="5F60D5E5-3673-55B2-F5B7-6E354709DF19">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>0C594C05-AB59-13F9-8AFC-58298F065B42</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="066E6A0B-3D50-BF9A-F3A8-7D1AB1AA7917" referredColumn="04A09AF4-7B04-EDD7-6042-1E0463707705"/>
+</associations>
+</Column>
+<Column name="prp_drg_id" id="88E277F8-E858-7FCF-90B3-9A690F5E1C46">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>3BC0C40B-907E-8B33-55BD-45403C9D6981</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="066E6A0B-3D50-BF9A-F3A8-7D1AB1AA7917" referredColumn="A4E7778A-0B40-BD36-D0EA-D9737CCA1026"/>
+</associations>
+</Column>
+<Column name="prp_date" id="28E4000C-F9C6-0137-FEE2-CED4080862FF">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>AE1E6918-50D5-0C0E-4CEB-9B3EEE62EF71</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="066E6A0B-3D50-BF9A-F3A8-7D1AB1AA7917" referredColumn="11186B35-3A58-5699-C43F-826C7DE1619A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82648E9A-F83A-CEE0-42BA-015887E7161E" name="Nonrefillable_Prescription_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>C5CE6A7E-11D1-6FC6-1E71-13A6F1C1AC92</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9565909C-49D6-0D3B-232A-309E682AE437"/>
+<colUsage columnID="5F60D5E5-3673-55B2-F5B7-6E354709DF19"/>
+<colUsage columnID="88E277F8-E858-7FCF-90B3-9A690F5E1C46"/>
+<colUsage columnID="28E4000C-F9C6-0137-FEE2-CED4080862FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

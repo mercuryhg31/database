@@ -1,0 +1,219 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A4261C1-97E5-85CE-A20D-CD5C6FE52991" name="Visits">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>545A1BCF-E516-8A5F-C3B8-66245B6BC79C</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<ordsAlias>visit</ordsAlias>
+<abbreviation>vts</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vts_cost" id="D979A702-ABFF-D026-5C54-511B026C4868">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>E3C22101-378F-FF55-FDFC-DD586F00164F</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vts_date" id="9E2F745D-9FB4-2D8F-5AF8-F7AAEF7153E8">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>63066037-294D-502A-FD1D-5BC4F9A09572</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vts_purpose" id="615A4CE5-3F54-0C6A-44B3-1A9D2AB9A505">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>606340EC-B7A2-C06C-7B64-319D8783E893</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pnt_id" id="E6B375B8-CF47-D0D9-C0E7-B02BBA7CB13B">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>5E47B9E4-61ED-D75B-8A60-12C2C9E16E79</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41672335-FBD1-58C7-B705-90496963363E" referredColumn="86781BAB-433D-FE95-1C36-C4DA72046125"/>
+</associations>
+</Column>
+<Column name="pvd_id" id="B81C2B18-1715-72D2-782C-F0FC90F3DFF4">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>F0944435-FBEF-8E16-E5D1-6B96DFD15576</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EF21FA9-4242-FA6C-4C58-25A35B7070D1" referredColumn="F7E70728-CDAF-786F-1104-88A04DE1BB0D"/>
+</associations>
+</Column>
+<Column name="hpt_id" id="5AC6595A-CEF0-587C-EE7B-2743607B1FF9">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>B0FE937D-07EC-DBDF-6FEB-EA8B7FBE6E1F</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B717CB2-3B83-36C8-DE10-711AF05B12A3" referredColumn="455CD2E1-6FFC-9F21-8B09-0EC5033F0EDD"/>
+</associations>
+</Column>
+<Column name="flp_status" id="DE3BDD47-9FE8-AEAD-62FD-0C284B6B8794">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>C3593FA8-5C43-4A32-3D72-BADFCB99BBA6</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nis_diagnosis" id="48F61841-2BD1-C9CE-366B-A397488F6A15">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>7A37D3C4-B607-938D-8646-CC66AD639E9E</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rtn_blood_pressure" id="FC20E45B-1187-B41C-8C6B-421E1817E2EE">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>A7D18542-B89A-3CCB-30D8-D3DB87141AC0</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rtn_height" id="70AB34E3-5841-7AC5-FC87-54E91F95DBE8">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>1090438B-8BFA-2D3E-BE40-1C2F7BB18B6D</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rtn_weight" id="A4D090F4-61B8-4DBE-AA8C-BE7061E00F02">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>F3958CEE-9392-091D-7BBF-AA08D894C214</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rtn_notes" id="F5F26526-BE23-6A03-AF52-1FA139BF71EE">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>EFA60C8D-B2C7-93F4-4020-865D53C760FC</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A8DA35E-2529-889A-4010-090A16AFED5C" name="Visit_PK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>AF2F50F1-B579-CA06-9B5F-19E51BF76E74</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6B375B8-CF47-D0D9-C0E7-B02BBA7CB13B"/>
+<colUsage columnID="B81C2B18-1715-72D2-782C-F0FC90F3DFF4"/>
+<colUsage columnID="5AC6595A-CEF0-587C-EE7B-2743607B1FF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DD1C499-BA03-1003-25DF-D078BD7D1D2A" name="Visit_Hospital_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>2073F23E-E43C-CB50-D4AC-02191A90991F</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AC6595A-CEF0-587C-EE7B-2743607B1FF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B84D5F7-D200-9AB7-D9F9-5C22D3C10A58" name="Visit_Patient_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>2AD0D2A6-F323-14D4-9B25-47C085313FC8</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6B375B8-CF47-D0D9-C0E7-B02BBA7CB13B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="912BD804-E6DF-4850-1013-F5A7A5ECA2AA" name="Visit_Provider_FK">
+<createdBy>hgarg</createdBy>
+<createdTime>2019-05-15 14:16:35 UTC</createdTime>
+<generatorID>223C3A5B-067E-8789-DB51-8782FA34E160</generatorID>
+<ownerDesignName>HealthOne Medical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B81C2B18-1715-72D2-782C-F0FC90F3DFF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
